@@ -1,0 +1,43 @@
+{
+  "datasets": {
+    "bitext": {
+      "source": "https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset",
+      "repo": "bitext/Bitext-customer-support-llm-chatbot-training-dataset",
+      "commit": "430d1a89bd93bd1fa23c16f29dd53e73f0087443",
+      "license": "CDLA-Sharing 1.0",
+      "local_file": "data/bitext/bitext_430d1a89.csv",
+      "rows": 26872,
+      "retrieved": "2026-09-27"
+    },
+    "it_service_tickets": {
+      "source": "https://www.kaggle.com/datasets/adisongoh/it-service-ticket-classification-dataset",
+      "kaggle_ref": "adisongoh/it-service-ticket-classification-dataset",
+      "kaggle_version": "1",
+      "license": "CC0 1.0",
+      "local_file": "data/it_service_tickets/all_tickets_processed_improved_v3.csv",
+      "local_file_parquet": "data/it_service_tickets/all_tickets_processed_improved_v3.parquet",
+      "bytes": 14568920,
+      "sha256": "044fdace33fa564e1e60453f2941dafc95539c99878b0d32746950394b9dd4d4",
+      "rows": 47837,
+      "columns": [
+        "Document",
+        "Topic_group"
+      ],
+      "retrieved": "2026-09-27"
+    },
+    "tobi_bueck": {
+      "source": "https://huggingface.co/datasets/Tobi-Bueck/customer-support-tickets",
+      "repo": "Tobi-Bueck/customer-support-tickets",
+      "commit": "ddf1c81a5475992c4fa6752bf1e8b4e31f07bbeb",
+      "doi": "10.57967/hf/6184",
+      "license": "CC BY-NC 4.0",
+      "local_file_csv": "data/tobi_bueck/tobi_bueck_ddf1c81a.csv",
+      "local_file_parquet": "data/tobi_bueck/tobi_bueck_ddf1c81a.parquet",
+      "local_file_en_csv": "data/tobi_bueck/tobi_bueck_ddf1c81a_en.csv",
+      "local_file_en_parquet": "data/tobi_bueck/tobi_bueck_ddf1c81a_en.parquet",
+      "rows": 61765,
+      "rows_english": 28261,
+      "retrieved": "2026-09-27"
+    }
+  }
+}
