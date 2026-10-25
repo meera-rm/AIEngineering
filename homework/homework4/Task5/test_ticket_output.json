@@ -1,0 +1,15 @@
+{
+  "ticket_id": 26456,
+  "prompt_file": "prompt_v1.txt",
+  "model": "qwen2.5:1.5b-instruct-q4_K_M",
+  "options": {
+    "temperature": 0,
+    "seed": 42
+  },
+  "body": "Dear Customer Support, I hope this message finds you well. I am experiencing an issue with the investments dashboard. Specifically, the dashboard has frozen and the data visualization is not loading. I believe this could be due to insufficient Google Cloud resources. I have attempted to resolve the issue by restarting my MacBook Air and verifying my internet connection, but the problem remains unresolved. Kindly acknowledge receipt of this message and provide guidance on steps to proceed. Additionally, it would be helpful if you could reach out to me at a convenient time <tel_num> to discuss further and collect any necessary details to address this issue. I appreciate your prompt attention to this matter. Looking forward to your response.",
+  "output": {
+    "summary": "Investments dashboard is frozen and data visualization is not loading, possibly due to insufficient Google Cloud resources. The customer wants assistance in resolving the issue and a meeting to discuss further.",
+    "customer_request": "Resolve the issue with the investments dashboard and arrange a meeting to discuss further.",
+    "missing_information": []
+  }
+}

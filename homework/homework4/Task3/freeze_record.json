@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-10-16T22:23:17",
+  "task2_decision": "KEEP the stop-word change (stop_words='english' in the TF-IDF vectorizer). Evidence: validation accuracy 0.4746 -> 0.4932, macro-F1 0.4873 -> 0.5096, net +70 tickets (281 fixed, 211 broken). See Task2/experiment_log.md.",
+  "original": "Homework 3 retrained router (immutable baseline)",
+  "candidate": "Homework 4 Task 2 revision router (stop-word removal)",
+  "sha256": {
+    "original/ticket_router.py": "659b9b83ba79e4e3fe205d0b007dabc69cf9a3c29d1b83535edace236920d8a3",
+    "original/ticket_router.joblib": "90eda534ad04486bcbb9da27d5865e709e4aa3ee2d967196f71a4db3f17a6824",
+    "candidate/ticket_router.py": "0036b3463b745413cdf97ba8174a4cc0510fcb64424fac39910a3303542503bc",
+    "candidate/ticket_router.joblib": "87282cefb45b15a83aa14231bed973b8d022504c7656bece8d4c87581d4d65a1"
+  }
+}

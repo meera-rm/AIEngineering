@@ -1,0 +1,11 @@
+true \ predicted,Billing and Payments,Customer Service,General Inquiry,Human Resources,IT Support,Product Support,Returns and Exchanges,Sales and Pre-Sales,Service Outages and Maintenance,Technical Support
+Billing and Payments,293,30,1,3,6,7,10,12,3,15
+Customer Service,19,247,5,6,50,64,28,43,8,95
+General Inquiry,1,3,33,1,5,2,1,3,1,3
+Human Resources,1,2,0,45,3,7,2,3,1,7
+IT Support,4,44,5,7,200,32,17,11,17,112
+Product Support,12,105,11,7,64,247,44,41,13,151
+Returns and Exchanges,10,20,0,2,8,18,88,13,4,22
+Sales and Pre-Sales,4,10,1,3,3,6,5,76,1,5
+Service Outages and Maintenance,2,5,1,1,16,6,1,2,104,10
+Technical Support,27,120,8,13,153,115,46,36,58,519

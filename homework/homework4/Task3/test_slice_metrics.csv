@@ -1,0 +1,6 @@
+,n,n,accuracy,accuracy,macro_f1,macro_f1
+model,candidate,original,candidate,original,candidate,original
+slice,,,,,,
+long,1186.0,1186.0,0.5228,0.4975,0.5325,0.5115
+medium,1288.0,1288.0,0.5008,0.4798,0.4938,0.4681
+short,1281.0,1281.0,0.466,0.4387,0.4726,0.441

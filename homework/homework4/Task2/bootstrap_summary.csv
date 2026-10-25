@@ -1,0 +1,3 @@
+metric,observed_change,ci95_low,ci95_high,share_of_resamples_candidate_better
+accuracy,0.0186,0.0077,0.0296,0.999
+macro_f1,0.0223,0.0079,0.0363,0.999

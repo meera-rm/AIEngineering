@@ -1,0 +1,11 @@
+department,TP,FP,FN,TN
+Billing and Payments,293,80,87,3295
+Customer Service,247,339,318,2851
+General Inquiry,33,32,20,3670
+Human Resources,45,43,26,3641
+IT Support,200,308,249,2998
+Product Support,247,257,448,2803
+Returns and Exchanges,88,154,97,3416
+Sales and Pre-Sales,76,164,38,3477
+Service Outages and Maintenance,104,106,44,3501
+Technical Support,519,420,576,2240

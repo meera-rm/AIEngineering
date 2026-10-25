@@ -1,0 +1,7 @@
+metric,baseline,candidate,change
+accuracy,0.4746,0.4932,0.0186
+macro_precision,0.4588,0.4838,0.025
+macro_recall,0.5442,0.5585,0.0143
+macro_f1,0.4873,0.5096,0.0223
+weighted_f1,0.4751,0.4932,0.0181
+top2_accuracy,0.6674,0.6804,0.013

@@ -1,0 +1,11 @@
+department,recall_base,recall_cand,precision_base,precision_cand,f1_base,f1_cand,f1_change
+Billing and Payments,0.7474,0.7711,0.7634,0.7855,0.7553,0.7782,0.0229
+Customer Service,0.3912,0.4372,0.4026,0.4215,0.3968,0.4292,0.0324
+General Inquiry,0.6415,0.6226,0.4048,0.5077,0.4964,0.5593,0.063
+Human Resources,0.5775,0.6338,0.5,0.5114,0.5359,0.566,0.0301
+IT Support,0.4276,0.4454,0.3699,0.3937,0.3967,0.418,0.0213
+Product Support,0.3626,0.3554,0.4719,0.4901,0.4101,0.412,0.0019
+Returns and Exchanges,0.4703,0.4757,0.3359,0.3636,0.3919,0.4122,0.0203
+Sales and Pre-Sales,0.6667,0.6667,0.3115,0.3167,0.4246,0.4294,0.0048
+Service Outages and Maintenance,0.7095,0.7027,0.4795,0.4952,0.5722,0.581,0.0088
+Technical Support,0.4475,0.474,0.5487,0.5527,0.493,0.5103,0.0174
