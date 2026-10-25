@@ -1,0 +1,27 @@
+{
+  "class_weight": {
+    "0": 0.9822360248447205,
+    "1": 0.6627829002514669,
+    "2": 7.210030395136778,
+    "3": 4.972955974842767,
+    "4": 0.8535804246131702,
+    "5": 0.5336557930258717,
+    "6": 2.0017721518987344,
+    "7": 3.3742532005689903,
+    "8": 2.58680479825518,
+    "9": 0.34418165989553107
+  },
+  "classes": [
+    "Billing and Payments",
+    "Customer Service",
+    "General Inquiry",
+    "Human Resources",
+    "IT Support",
+    "Product Support",
+    "Returns and Exchanges",
+    "Sales and Pre-Sales",
+    "Service Outages and Maintenance",
+    "Technical Support"
+  ],
+  "imbalance_ratio": 20.948328267477205
+}

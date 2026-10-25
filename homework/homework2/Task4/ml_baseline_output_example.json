@@ -1,0 +1,15 @@
+{
+  "recommended_department": "Product Support",
+  "class_scores": {
+    "Billing and Payments": 0.04,
+    "Customer Service": 0.06,
+    "General Inquiry": 0.03,
+    "Human Resources": 0.02,
+    "IT Support": 0.12,
+    "Product Support": 0.46,
+    "Returns and Exchanges": 0.04,
+    "Sales and Pre-Sales": 0.05,
+    "Service Outages and Maintenance": 0.03,
+    "Technical Support": 0.15
+  }
+}

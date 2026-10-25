@@ -1,0 +1,22 @@
+{
+  "train_rows": 23721,
+  "train_correct": 18636,
+  "training_accuracy": 0.7856329834324016,
+  "vocabulary_size": 50000,
+  "classes": [
+    "Billing and Payments",
+    "Customer Service",
+    "General Inquiry",
+    "Human Resources",
+    "IT Support",
+    "Product Support",
+    "Returns and Exchanges",
+    "Sales and Pre-Sales",
+    "Service Outages and Maintenance",
+    "Technical Support"
+  ],
+  "C": 1.0,
+  "max_iter": 1000,
+  "random_state": 42,
+  "model_path": "/Users/meera/ai-tanner/tannerclass2/homework/homework2/Task4/artifacts/ticket_router.joblib"
+}
