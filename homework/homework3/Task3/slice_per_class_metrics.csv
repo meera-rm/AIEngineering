@@ -1,0 +1,31 @@
+department,support,precision,recall,f1,TP,FP,FN,TN,slice
+Billing and Payments,118,0.7596,0.6695,0.7117,79,25,39,1137,short
+Customer Service,209,0.4278,0.3684,0.3959,77,103,132,968,short
+General Inquiry,14,0.3478,0.5714,0.4324,8,15,6,1251,short
+Human Resources,30,0.375,0.5,0.4286,15,25,15,1225,short
+IT Support,162,0.3918,0.4691,0.427,76,118,86,1000,short
+Product Support,242,0.4626,0.4091,0.4342,99,115,143,923,short
+Returns and Exchanges,58,0.2364,0.4483,0.3095,26,84,32,1138,short
+Sales and Pre-Sales,37,0.2558,0.5946,0.3577,22,64,15,1179,short
+Service Outages and Maintenance,50,0.5821,0.78,0.6667,39,28,11,1202,short
+Technical Support,360,0.5611,0.4083,0.4727,147,115,213,805,short
+Billing and Payments,123,0.7185,0.7886,0.7519,97,38,26,1084,medium
+Customer Service,191,0.4221,0.4398,0.4308,84,115,107,939,medium
+General Inquiry,16,0.4286,0.5625,0.4865,9,12,7,1217,medium
+Human Resources,22,0.6,0.6818,0.6383,15,10,7,1213,medium
+IT Support,154,0.385,0.4675,0.4223,72,115,82,976,medium
+Product Support,218,0.4512,0.3394,0.3874,74,90,144,937,medium
+Returns and Exchanges,57,0.4028,0.5088,0.4496,29,43,28,1145,medium
+Sales and Pre-Sales,35,0.375,0.6857,0.4848,24,40,11,1170,medium
+Service Outages and Maintenance,48,0.4557,0.75,0.5669,36,43,12,1154,medium
+Technical Support,381,0.5652,0.4436,0.4971,169,130,212,734,medium
+Billing and Payments,139,0.812,0.777,0.7941,108,25,31,1066,long
+Customer Service,165,0.3529,0.3636,0.3582,60,110,105,955,long
+General Inquiry,23,0.425,0.7391,0.5397,17,23,6,1184,long
+Human Resources,19,0.6471,0.5789,0.6111,11,6,8,1205,long
+IT Support,133,0.3188,0.3308,0.3247,44,94,89,1003,long
+Product Support,235,0.5064,0.3362,0.4041,79,77,156,918,long
+Returns and Exchanges,70,0.4156,0.4571,0.4354,32,45,38,1115,long
+Sales and Pre-Sales,42,0.3191,0.7143,0.4412,30,64,12,1124,long
+Service Outages and Maintenance,50,0.411,0.6,0.4878,30,43,20,1137,long
+Technical Support,354,0.5241,0.4915,0.5073,174,158,180,718,long

@@ -1,0 +1,7 @@
+metric,value
+accuracy,0.4746
+macro_precision,0.4588
+macro_recall,0.5442
+macro_f1,0.4873
+weighted_f1,0.4751
+top2_accuracy,0.6674

@@ -1,0 +1,11 @@
+department,support,precision,recall,f1,TP,FP,FN,TN
+Billing and Payments,380,0.7634,0.7474,0.7553,284,88,96,3287
+Customer Service,565,0.4026,0.3912,0.3968,221,328,344,2862
+General Inquiry,53,0.4048,0.6415,0.4964,34,50,19,3652
+Human Resources,71,0.5,0.5775,0.5359,41,41,30,3643
+IT Support,449,0.3699,0.4276,0.3967,192,327,257,2979
+Product Support,695,0.4719,0.3626,0.4101,252,282,443,2778
+Returns and Exchanges,185,0.3359,0.4703,0.3919,87,172,98,3398
+Sales and Pre-Sales,114,0.3115,0.6667,0.4246,76,168,38,3473
+Service Outages and Maintenance,148,0.4795,0.7095,0.5722,105,114,43,3493
+Technical Support,1095,0.5487,0.4475,0.493,490,403,605,2257
