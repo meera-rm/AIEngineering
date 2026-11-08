@@ -1,0 +1,36 @@
+---
+article_id: KB-CAN-NEG-001
+title: Reconnecting a Canon PIXMA MG3620 to Wireless Networks
+product: Canon PIXMA MG3620
+topic: wireless-connectivity
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when the Canon PIXMA MG3620 cannot join Wi-Fi, disappears from
+the print list, or repeatedly drops off the wireless network. It does not cover
+streaking, blotches, or other print-quality defects once a page is already
+printing.
+
+## What the customer provides
+
+Ask the customer whether the printer fails initial setup or loses connection
+after working previously. Support also needs the network name, whether the router
+provides separate 2.4 GHz and 5 GHz bands, and whether other devices can reach
+the same network normally.
+
+## What support provides
+
+Support can guide the customer through network reset, reconnecting to the 2.4
+GHz band used by this model, and confirming that the printer receives an IP
+address. If the printer is visible and jobs reach it but printed pages are
+defective, stop using this article and move to print-quality troubleshooting.
+
+## Limits
+
+Wireless recovery should not include repeated factory resets when the symptom is
+actually defective output on already delivered jobs. This article does not
+support exchange eligibility, ink-system diagnosis, or mechanical repair.

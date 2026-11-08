@@ -1,0 +1,53 @@
+---
+article_id: KB-SHIP-001
+title: Shipping Methods and Tracking for Networking Equipment Orders
+product: Networking Fulfillment
+topic: shipping-tracking
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when a customer asks how quickly networking equipment can be
+delivered, which shipping methods are available, or whether a package can be
+tracked after dispatch. It applies to stocked routers, switches, and approved
+accessories shipped through the standard fulfillment program.
+
+## Standard timelines
+
+For in-stock hardware, standard ground delivery is quoted at five to seven
+business days from order release. Expedited delivery is two to three business
+days, and priority overnight service is available in eligible metro regions for
+orders cleared before the daily cutoff. Delivery commitments begin after order
+verification and payment approval, not when the cart is created or the inquiry
+is sent.
+
+## What the customer provides
+
+To quote a realistic delivery window, support needs the destination region,
+whether the order is shipping to a business or residential address, and whether
+the customer wants standard, expedited, or priority service. The customer does
+not need a tracking number before the order has shipped.
+
+## What support provides
+
+Support checks inventory status, confirms which shipping methods are available
+for the destination, and explains the quoted transit range. Once the order is
+dispatched, tracking details are normally posted to the order record within 24
+hours and can also be sent by email on request. If multiple packages are used,
+support explains which items are in each shipment.
+
+Support should also explain that quoted delivery windows assume the order clears
+verification before the daily cutoff. If stock must be moved between warehouses,
+the customer should be told that dispatch timing may shift by one business day
+even when the selected carrier service remains the same. For time-sensitive
+projects, support can note whether split shipment is available so essential
+hardware can leave first and accessories can follow.
+
+## Limits
+
+This article does not authorize shipping-address changes after carrier handoff
+and does not define the return window if the product is unsuitable. Those are
+separate processes with different requirements.

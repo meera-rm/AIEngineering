@@ -1,0 +1,19 @@
+{
+  "ticket_id": 28763,
+  "mode": "no_rag",
+  "prompt_file": "prompt_v1.txt",
+  "model": "qwen2.5:1.5b-instruct-q4_K_M",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 512
+  },
+  "output": {
+    "summary": "Customer reports a persistent flickering issue with their Samsung QLED QN90A TV, which has become more pronounced over time and is causing significant hindrance to the viewing experience.",
+    "customer_request": "Resolve the flickering issue with their Samsung QLED QN90A TV promptly.",
+    "missing_information": [
+      "Details about the specific components causing the flickering issue",
+      "Information about the customer's account or order number"
+    ]
+  }
+}

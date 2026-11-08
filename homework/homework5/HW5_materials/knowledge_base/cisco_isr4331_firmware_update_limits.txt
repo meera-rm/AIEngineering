@@ -1,0 +1,36 @@
+---
+article_id: KB-CISCO-NEG-001
+title: Firmware Planning Limits for Cisco ISR4331 Routers
+product: Cisco ISR4331
+topic: firmware-updates
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when a customer asks about router firmware maintenance,
+supported software trains, or precautions before applying an ISR4331 update. It
+is not a purchasing guide and does not answer shipping or return questions.
+
+## What the customer provides
+
+Support should collect the current software release, maintenance window, and a
+recent configuration backup status. If the router is in production, the
+customer should also name the site impact if a rollback is needed.
+
+## What support provides
+
+Support can confirm whether the requested upgrade path is within the internally
+approved software family, whether an intermediate release is required, and what
+pre-change checks are expected. The normal advice is to save the running
+configuration, verify console access, and schedule the change during a controlled
+window.
+
+## Limits
+
+This article does not describe hardware throughput, feature licensing for new
+purchases, or fulfillment timelines. It also does not decide whether the router
+is the right fit for a new deployment, because capacity sizing belongs to the
+sales-specification review rather than firmware guidance.

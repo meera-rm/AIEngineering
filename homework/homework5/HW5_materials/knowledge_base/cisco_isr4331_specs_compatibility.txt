@@ -1,0 +1,57 @@
+---
+article_id: KB-CISCO-001
+title: Cisco ISR4331 Specification and Compatibility Reference
+product: Cisco ISR4331
+topic: specifications
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this reference when a customer wants pre-purchase clarification on the Cisco
+ISR4331. The internal catalog describes it as a branch router for midsize sites
+that need secure WAN termination, modular uplink options, and central policy
+control in a 1U form factor.
+
+## Core reference facts
+
+The supported sales profile lists up to 350 Mbps of managed forwarding
+throughput in the base configuration and up to 600 Mbps when the performance
+license is activated. The chassis includes two onboard gigabit WAN-capable
+interfaces, three LAN interfaces, and two expansion bays for approved network
+modules. It supports rack mounting, redundant power through an external
+failover supply accessory, and integrated hardware acceleration for encrypted
+site-to-site traffic.
+
+## Compatibility notes
+
+The ISR4331 is most often recommended for branch aggregation, managed VPN edge,
+and mixed voice-data office routing. Customers should confirm whether they need
+additional modules for serial handoff, LTE backup, or dense switch-port
+expansion, because those capabilities are not included in the base chassis.
+Support can clarify catalog compatibility and licensed feature families, but it
+does not design the customer's full network from this reference article alone.
+
+When a customer asks about unique features, support can describe the modular
+expansion bays, encrypted branch connectivity profile, and central policy use
+case in plain language. If the customer already knows the WAN handoff type and
+uplink redundancy requirement, support can also tell them whether the base
+chassis is sufficient or whether an approved module must be added to the quote.
+
+## What support provides and what it does not
+
+Support can answer specification questions, explain catalog terminology, and
+highlight which capabilities are native to the base router versus optional
+through add-on modules or licensing. The customer does not need to translate
+their entire network design into hardware terms before asking for help. Support
+does need enough information to tell whether the request is about throughput,
+interface type, encrypted branch connectivity, or physical installation
+constraints so the reply stays focused on the actual purchase question.
+
+## Limits
+
+This article does not cover firmware procedures, shipping commitments, or return
+eligibility. Use separate articles for delivery options and post-purchase
+returns.

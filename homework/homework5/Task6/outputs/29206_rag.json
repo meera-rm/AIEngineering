@@ -1,0 +1,66 @@
+{
+  "ticket_id": 29206,
+  "mode": "rag",
+  "prompt_file": "prompt_v2_rag.txt",
+  "model": "qwen2.5:1.5b-instruct-q4_K_M",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 512
+  },
+  "retrieval": {
+    "k": 5,
+    "max_distance": 0.21,
+    "top_k_hits": [
+      {
+        "rank": 1,
+        "chunk_id": "KB-JIRA-001#03",
+        "distance": 0.1139,
+        "title": "Custom Priority Configuration in Jira Software 8.20",
+        "section_heading": "What support provides",
+        "kept": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "KB-JIRA-001#04",
+        "distance": 0.1288,
+        "title": "Custom Priority Configuration in Jira Software 8.20",
+        "section_heading": "Planning estimate",
+        "kept": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "KB-JIRA-002#04",
+        "distance": 0.1311,
+        "title": "Adding Workflow Statuses and Transition Conditions in Jira Software 8.20",
+        "section_heading": "Dynamic behavior and limits",
+        "kept": true
+      },
+      {
+        "rank": 4,
+        "chunk_id": "KB-JIRA-002#01",
+        "distance": 0.1376,
+        "title": "Adding Workflow Statuses and Transition Conditions in Jira Software 8.20",
+        "section_heading": "Overview",
+        "kept": true
+      },
+      {
+        "rank": 5,
+        "chunk_id": "KB-JIRA-001#02",
+        "distance": 0.1417,
+        "title": "Custom Priority Configuration in Jira Software 8.20",
+        "section_heading": "What the customer provides",
+        "kept": true
+      }
+    ]
+  },
+  "user_message": "Summarize the following ticket:\n<ticket>\nDear Customer Support Team,I hope this message finds you well. I am reaching out on behalf of our team at company_name. We have been utilizing Jira Software 8.20 as an essential tool for managing our project workflows, and it has significantly enhanced our productivity and project management capabilities. However, due to recent changes in our internal company policies, we require modifications to our existing workflows to better accommodate the new guidelines regarding ticket prioritization.In line with our new company policies, we need the ability to adjust the prioritization settings within Jira to reflect the changes in how issues should be processed and managed. Specifically, we are looking to incorporate a customized priority field that aligns with our updated prioritization matrix. Additionally, we would like to implement a feature that allows for dynamic adjustments based on the real-time status of issues and overarching project goals.Our objective is to ensure that our projects are managed more efficiently by allowing team members to categorize issues with the appropriate level of urgency as dictated by our new policy framework. Thus, we foresee the need for creating new custom workflows or modifying existing ones to include additional statuses and transition conditions which can accurately reflect these prioritization strategies.Could you please provide guidance on the best approach for implementing these workflow modifications? We are particularly interested in understanding the technical feasibility, potential timelines, and any assistance you can provide in terms of configuration or necessary plugins which might need to be applied to support these changes. It would be extremely helpful to have any documentation or best practices from prior similar implementations to help us navigate this adjustment seamlessly.We appreciate your attention to this matter and are hopeful for your expert advice on how to move forward. Please let us know a suitable time for us to discuss this in greater detail or if there are any initial resources you could provide to kickstart this process.Thank you very much for your support.Best regards,nameposition, company_nameemail_addresstel_num\n</ticket>\n\n<reference_articles>\n[1] Custom Priority Configuration in Jira Software 8.20 — What support provides\n## What support provides\n\nSupport confirms that Jira 8.20 can host a revised priority scheme without a\nplugin for the core priority field itself. Before implementation, support\nadvises taking a configuration snapshot and testing the new values in staging\nwhen available. The normal sequence is to create or rename priority values,\nconfirm their display order, map any dependent boards or filters that reference\nold names, and then verify that issue creation and search still behave as\nexpected.\n\nIf the customer asks for dynamic reprioritization tied to project state or\nbusiness goals, support should treat that as a second decision point. Basic\npriority changes are straightforward; automatic priority changes require an\napproved ruleset and separate review of whether native automation already in\nplace can support it.\n\n[2] Custom Priority Configuration in Jira Software 8.20 — Planning estimate\n## Planning estimate\n\nAfter receiving the approved matrix, affected-project list, and test access,\nsupport can normally configure and validate a basic priority scheme within\nthree business days. That estimate excludes workflow conditions and automatic\nreprioritization. Support owns the final estimate after reviewing dependent\nfilters and automations; the customer supplies constraints and an acceptable\nchange window rather than calculating the schedule.\n\n[3] Adding Workflow Statuses and Transition Conditions in Jira Software 8.20 — Dynamic behavior and limits\n## Dynamic behavior and limits\n\nWhen a customer asks for issue handling to shift dynamically as project goals\nchange, support should narrow the request to explicit rules rather than vague\noptimization. Jira can enforce named statuses and documented transition\nconditions, but it cannot infer business priority without a defined policy\nmatrix. This article does not cover notification changes or permission-scheme\ndesign. Escalate when multiple projects share one workflow and the requested\nchange would affect teams outside the customer's approved scope.\n\n[4] Adding Workflow Statuses and Transition Conditions in Jira Software 8.20 — Overview\n## Overview\n\nThis article supports Jira 8.20 requests to add statuses, modify transitions,\nor align workflow conditions with a new ticket handling policy. It is commonly\nretrieved alongside the custom priority article because teams often need both\nsets of changes to reflect a revised issue process.\n\n[5] Custom Priority Configuration in Jira Software 8.20 — What the customer provides\n## What the customer provides\n\nThe customer should provide the approved list of priority names, definitions,\nand intended order from highest to lowest urgency. Support also needs to know\nwhich projects are affected, whether the customer uses a staging environment,\nand who has Jira administrator access to make the change safely. If the\ncustomer wants issue priority to influence automation or workflow behavior,\nthose downstream rules should be described separately.\n\nThe customer is not expected to know the exact configuration screens or whether\nplugins are required for the basic priority list change.\n</reference_articles>",
+  "output": {
+    "summary": "Our team at company_name is seeking guidance on how to modify Jira Software 8.20 workflows to better align with our new company policies regarding ticket prioritization and project management.",
+    "customer_request": "We need assistance in implementing new custom workflows or modifying existing ones to include additional statuses and transition conditions that accurately reflect our updated prioritization strategies.",
+    "missing_information": [
+      "The customer needs to provide the approved list of priority names, definitions, and intended order from highest to lowest urgency.",
+      "The customer should also inform support about which projects are affected, whether the customer uses a staging environment, and who has Jira administrator access to make the change safely."
+    ]
+  }
+}

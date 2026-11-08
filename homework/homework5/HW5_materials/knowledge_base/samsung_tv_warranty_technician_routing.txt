@@ -1,0 +1,55 @@
+---
+article_id: KB-SAM-TV-002
+title: Warranty Routing and Technician Assessment for Samsung Television Display Defects
+product: Samsung Television Support
+topic: warranty-technician-routing
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article after safe troubleshooting suggests a Samsung television may
+need hands-on assessment for a display defect such as persistent flicker. The
+standard television warranty in this corpus is a 12-month limited hardware
+warranty beginning on the retail purchase date. For covered in-home models,
+support routes the case to an authorized technician rather than promising an
+immediate replacement.
+
+## What the customer provides
+
+The customer should provide the model, serial number, purchase date, seller
+name, and proof of purchase. For intermittent display problems, a short photo or
+video clip is helpful, along with notes about which sources were tested and
+whether the built-in menu also flickers. The customer may also be asked to
+confirm that the screen is free of impact cracks, liquid exposure, and
+unauthorized repair attempts.
+
+The customer is not expected to diagnose the failed part or to decide whether
+the issue is covered.
+
+## What support provides
+
+Support checks warranty dates, validates symptom evidence, and determines
+whether the case qualifies for technician dispatch or depot review. When the TV
+is within warranty and the symptom remains after approved troubleshooting,
+support opens a service order and offers the first available technician slot in
+the customer's service region. If local dispatch is unavailable, support
+explains the alternate inspection route before scheduling.
+
+Before the visit, support should tell the customer to leave the television
+assembled as currently installed and to keep the remote and proof of purchase
+available. The technician decides whether the issue can be resolved on site or
+whether a follow-up parts visit is needed. Support-owned decisions include the
+service route, appointment window, and parts ordering; the customer only needs
+to confirm access and contact availability.
+
+## Coverage limits
+
+Warranty routing is intended for hardware defects and persistent display
+failures. Cosmetic damage, accidental breakage, liquid damage, and symptoms
+caused only by unsupported accessories are excluded from standard warranty
+service. Retail return windows are handled separately and are not part of this
+article. Escalate only if warranty status is disputed or the customer cannot be
+served by the normal authorized-service region.

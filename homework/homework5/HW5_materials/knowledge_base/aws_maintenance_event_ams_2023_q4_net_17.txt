@@ -1,0 +1,34 @@
+---
+article_id: KB-AWS-MAINT-001
+title: Maintenance Notice AMS-2023-Q4-NET-17 for AWS Management Service
+product: AWS Management Service
+topic: maintenance-event-notice
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Event summary
+
+Maintenance event `AMS-2023-Q4-NET-17` is a scheduled AWS Management Service
+network-control update planned for 18 November 2023 from 02:00 UTC to 04:00
+UTC. The change window is expected to affect management-plane actions only. The
+notice states that running customer workloads should remain online, but managed
+scaling actions, configuration pushes, and health-status propagation may pause
+briefly during the event.
+
+## Expected impact
+
+During the window, customers may see delayed dashboard status refreshes and up
+to two short control-plane interruptions, each not expected to exceed 10
+minutes. The event does not call for customer-side service restarts. If a
+customer relies on just-in-time infrastructure changes during the window, those
+changes should be rescheduled when possible.
+
+## What support provides
+
+Support should quote the event ID, planned start and end time, and the managed
+service components affected. Updates are posted at event start, every 30
+minutes while work remains active, and at completion. If the interruption
+exceeds the notice threshold, support opens an incident bridge and posts an
+unscheduled-impact update tied to the same event ID.

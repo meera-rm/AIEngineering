@@ -1,0 +1,60 @@
+---
+article_id: KB-JIRA-001
+title: Custom Priority Configuration in Jira Software 8.20
+product: Jira Software 8.20
+topic: custom-priorities
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when a Jira Software 8.20 customer wants to change issue
+priority options so they match a new internal prioritization policy. The base
+platform supports custom priorities, but support should collect the approved
+priority matrix before advising on implementation.
+
+## What the customer provides
+
+The customer should provide the approved list of priority names, definitions,
+and intended order from highest to lowest urgency. Support also needs to know
+which projects are affected, whether the customer uses a staging environment,
+and who has Jira administrator access to make the change safely. If the
+customer wants issue priority to influence automation or workflow behavior,
+those downstream rules should be described separately.
+
+The customer is not expected to know the exact configuration screens or whether
+plugins are required for the basic priority list change.
+
+## What support provides
+
+Support confirms that Jira 8.20 can host a revised priority scheme without a
+plugin for the core priority field itself. Before implementation, support
+advises taking a configuration snapshot and testing the new values in staging
+when available. The normal sequence is to create or rename priority values,
+confirm their display order, map any dependent boards or filters that reference
+old names, and then verify that issue creation and search still behave as
+expected.
+
+If the customer asks for dynamic reprioritization tied to project state or
+business goals, support should treat that as a second decision point. Basic
+priority changes are straightforward; automatic priority changes require an
+approved ruleset and separate review of whether native automation already in
+place can support it.
+
+## Planning estimate
+
+After receiving the approved matrix, affected-project list, and test access,
+support can normally configure and validate a basic priority scheme within
+three business days. That estimate excludes workflow conditions and automatic
+reprioritization. Support owns the final estimate after reviewing dependent
+filters and automations; the customer supplies constraints and an acceptable
+change window rather than calculating the schedule.
+
+## Limits and escalation
+
+This article does not approve the customer's policy matrix for them and does not
+change notification schemes or project permissions. Escalate only when the
+existing workflow, boards, or automations reference priority values in a way
+that could cause ambiguous behavior after the change.

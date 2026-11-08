@@ -1,0 +1,4 @@
+k,mean_precision,precision_queries,mean_recall,recall_queries,mean_ndcg,ndcg_queries
+3,0.6,5,0.3988,4,0.7654,4
+5,0.56,5,0.6429,4,0.7577,4
+10,0.44,5,1.0,4,0.876,4

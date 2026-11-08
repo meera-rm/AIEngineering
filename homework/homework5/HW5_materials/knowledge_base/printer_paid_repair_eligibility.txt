@@ -1,0 +1,35 @@
+---
+article_id: KB-CAN-NEG-002
+title: Paid Repair Eligibility for Out-of-Warranty Printers
+product: Printer Service
+topic: paid-repair
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+This article covers bench repair requests for printers that are outside warranty
+or have damage excluded from warranty terms. It applies to customers who want an
+estimate for repair service rather than an exchange review.
+
+## What the customer provides
+
+The customer should provide the model, serial number, age of the unit if known,
+and a short description of the fault. Photos are useful when the request
+involves impact damage, broken trays, jammed mechanical parts, or liquid
+exposure. The customer is not expected to diagnose which assembly failed.
+
+## What support provides
+
+Support checks whether the model is still accepted for paid repair, quotes the
+inspection fee, and explains the turnaround estimate for the service center. If
+repair is approved, support issues the depot intake instructions and explains
+that the final repair price is not confirmed until inspection is complete.
+
+## Limits
+
+This article does not determine eligibility for in-warranty exchange after
+documented print-quality troubleshooting. It is also not meant for wireless
+setup issues that can be resolved without hardware service.

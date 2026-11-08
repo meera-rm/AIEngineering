@@ -1,0 +1,55 @@
+---
+article_id: KB-CONSULT-003
+title: Preparing Latency Evidence Before a Server Management Consultation
+product: IT Consulting Service
+topic: server-latency-evidence
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when a customer reports that servers are occasionally slow and
+wants consulting advice on better administrative practices. Before support
+recommends process changes, the customer should collect a small, structured set
+of read-only evidence so the consultation can focus on patterns rather than
+guesswork.
+
+## What the customer provides
+
+Ask the customer for the date and approximate time of at least three recent
+latency events, which applications or services were affected, and whether the
+slowdown was visible to end users or only to administrators. Helpful evidence
+includes CPU, memory, disk, and network utilization from the same period;
+server role labels; recent patching or deployment activity; and whether the
+problem appeared on one system or across a cluster. A brief note about business
+impact, such as delayed request handling or missed job windows, helps support
+prioritize the consultation.
+
+Customers should gather evidence only through existing dashboards, operating
+system counters, or exported logs. They should not change live performance
+settings, restart services, or disable protections solely to produce data.
+
+## What support provides
+
+Support reviews the evidence package, highlights missing comparisons, and tells
+the customer whether the first consultation should focus on workload patterns,
+capacity management, or operational process. Support may ask for one additional
+peak-time sample if the supplied metrics do not align with the reported slow
+window. The specialist then uses the collected evidence to discuss best
+practices for inspections, alerting coverage, and routine management.
+
+Support should encourage the customer to compare one slow period with one normal
+period whenever possible. That contrast often shows whether the issue is tied to
+resource saturation, scheduled jobs, or an external dependency. If no baseline
+exists, the customer can still capture future timestamps and exported counters;
+they should not stress-test live systems merely to create a data sample for the
+consultation.
+
+## Escalation
+
+This preparation article is for intermittent latency, not a live outage. If the
+customer reports an active service interruption lasting more than 15 minutes, no
+current access to core systems, or repeated crashes, route the case to the
+operations response team before continuing consultation planning.

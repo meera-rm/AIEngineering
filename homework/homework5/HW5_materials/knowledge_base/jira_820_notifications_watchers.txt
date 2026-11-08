@@ -1,0 +1,38 @@
+---
+article_id: KB-JIRA-NEG-001
+title: Notification Schemes and Watchers in Jira Software 8.20
+product: Jira Software 8.20
+topic: notifications
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when a customer asks who receives Jira emails, how watcher
+behavior works, or how event notifications are routed. It is often retrieved
+near workflow questions because both involve issue events, but it does not cover
+priority configuration or status design.
+
+## What the customer provides
+
+Support should ask which project is affected, which event sends the unwanted or
+missing email, and which users or roles are expected to receive it. If the
+customer references a custom workflow, support still needs the notification
+scheme name separately because the scheme and the workflow are different objects.
+
+## What support provides
+
+Support reviews the notification scheme, watcher settings, and event mapping to
+explain why a message was or was not sent. Changes are limited to mail-routing
+behavior and recipient scope.
+
+Customers often describe this as a workflow problem because the email is sent
+after an issue changes status. Support should still separate the event that
+triggered the mail from the workflow step itself before changing any settings.
+
+## Limits
+
+This article does not add custom priorities, create new statuses, or define
+transition conditions.

@@ -1,0 +1,39 @@
+---
+article_id: KB-SAM-NEG-001
+title: Troubleshooting Audio Dropouts on Samsung QN90A Televisions
+product: Samsung QN90A
+topic: audio-interruption
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Symptoms
+
+Use this article when sound cuts out, crackles, or falls out of sync on a
+Samsung QN90A while the picture remains stable. Common retrieval language
+includes audio interruption, sound dropout, eARC instability, and intermittent
+volume loss.
+
+## Safe checks
+
+Ask the customer whether the dropout occurs with internal streaming apps, an
+HDMI source, or only when a soundbar is connected. Safe checks include reseating
+the HDMI cable, temporarily disabling eARC for testing, switching the digital
+audio output format, and testing the TV speakers directly. If the issue appears
+only on one external device, support should narrow the investigation to that
+source path.
+
+## What support provides
+
+Support interprets the results and decides whether the next step is audio
+configuration review, accessory isolation, or hardware service for the audio
+path. Picture flicker, backlight pulsing, and display artifacts are outside the
+scope of this article.
+
+## Limits
+
+Do not use audio troubleshooting as evidence that the panel itself is defective.
+If the customer reports flashing images, menu flicker, or brightness pulsing,
+move the case to the display-troubleshooting flow instead of continuing with
+speaker or eARC checks.

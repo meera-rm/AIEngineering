@@ -1,0 +1,51 @@
+---
+article_id: KB-CONSULT-001
+title: Scheduling and Intake for IT Consulting Sessions
+product: IT Consulting Service
+topic: consultation-intake
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## When to use this intake
+
+Use this article when a customer asks for a consultation about operational
+topics such as ticketing workflows, server administration practices,
+architecture planning, scalability, deployment design, or reliability. The
+purpose of intake is to make the first specialist session productive. It is not
+meant to solve the customer's environment by email or promise a finished design
+before discovery.
+
+## What the customer provides
+
+The customer should provide a short description of the problem they want the
+consultation to address, the systems or teams involved, any target date that is
+driving urgency, and the names of the people who should attend. Helpful intake
+details include whether the request is exploratory or tied to an active pain
+point, the current size of the environment, and any known change restrictions.
+For architecture or workflow requests, the customer should also share the
+current-state summary they already have, even if it is incomplete.
+
+The customer is not expected to arrive with a finished solution, a final
+priority matrix, or a vendor selection. Missing discovery details can delay a
+recommendation, but they do not prevent support from opening the consultation
+track and reserving time with the right specialist.
+
+## What support provides
+
+Support confirms the consulting track, assigns the request to the correct
+specialist group, and prepares an agenda for the first session. The agenda
+identifies which discovery materials are still needed, who should bring them,
+and whether the first meeting is meant for requirements gathering or for review
+of already collected evidence. Standard intake includes one 45-minute discovery
+session within five business days when availability is normal.
+
+## Boundaries and escalation
+
+Intake reserves discovery capacity but does not promise implementation work or
+environment-specific recommendations. Any later deliverable must be defined
+after discovery and confirmed within the purchased service scope. Escalate
+intake when the customer reports an ongoing outage, regulatory deadline, or
+security incident, because those situations require operational handling before
+consultation planning.

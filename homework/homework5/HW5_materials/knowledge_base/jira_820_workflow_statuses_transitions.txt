@@ -1,0 +1,55 @@
+---
+article_id: KB-JIRA-002
+title: Adding Workflow Statuses and Transition Conditions in Jira Software 8.20
+product: Jira Software 8.20
+topic: workflow-statuses-transitions
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+This article supports Jira 8.20 requests to add statuses, modify transitions,
+or align workflow conditions with a new ticket handling policy. It is commonly
+retrieved alongside the custom priority article because teams often need both
+sets of changes to reflect a revised issue process.
+
+## What the customer provides
+
+Support should ask for the current workflow name, the issue types affected, and
+a simple before-and-after list of statuses and allowed transitions. If the
+customer wants transitions to depend on priority, approval, or issue state, the
+exact rule must be supplied in business language so it can be translated into
+workflow conditions without guessing. A staging project or test window is also
+important because workflow changes can affect active teams immediately.
+
+The customer does not need to predefine every Jira configuration detail, but
+they do need to state which statuses should be added, removed, or repurposed.
+
+## What support provides
+
+Support reviews the requested workflow map, checks for conflicts with existing
+boards and issue screens, and advises whether the change fits native Jira 8.20
+workflow capabilities. Standard support can help create new statuses, add or
+restrict transitions, and apply clear transition conditions when the approval
+rules are already defined. After configuration, support should validate that
+issues can still move through the intended path and that no team loses the
+ability to complete required work.
+
+Once the before-and-after map and transition rules are complete, support
+provides a change estimate. A single-project workflow with defined conditions
+normally requires four business days for staging configuration and validation.
+Shared workflows or dynamic rules require specialist review before a timeline
+or plugin need can be confirmed. These are support-owned conclusions, not
+details the customer is expected to supply.
+
+## Dynamic behavior and limits
+
+When a customer asks for issue handling to shift dynamically as project goals
+change, support should narrow the request to explicit rules rather than vague
+optimization. Jira can enforce named statuses and documented transition
+conditions, but it cannot infer business priority without a defined policy
+matrix. This article does not cover notification changes or permission-scheme
+design. Escalate when multiple projects share one workflow and the requested
+change would affect teams outside the customer's approved scope.

@@ -1,0 +1,54 @@
+---
+article_id: KB-CAN-PRINT-002
+title: In-Warranty Exchange Process for Canon PIXMA MG3620 Print Defects
+product: Canon PIXMA MG3620
+topic: warranty-exchange
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+This article describes when a Canon PIXMA MG3620 with unresolved print-quality
+defects may qualify for an in-warranty exchange. In this corpus, the MG3620 is
+covered by a 12-month limited hardware warranty starting on the purchase date.
+Exchange is used when standard print-quality troubleshooting has been completed
+and the device still cannot produce acceptable output.
+
+## What the customer provides
+
+The customer should provide proof of purchase, the serial number, current
+shipping address, and either the saved nozzle check page or clear photos of the
+defect. Support also needs confirmation that the customer completed the approved
+cleaning and alignment steps and that the unit has not been physically damaged.
+If aftermarket ink caused leakage or contamination, the case requires manual
+review before exchange approval.
+
+The customer is not expected to choose between repair and exchange. That
+decision belongs to support under the product policy.
+
+## What support provides
+
+Support verifies the warranty date, reviews the troubleshooting record, and
+confirms whether the defect qualifies for advanced exchange or standard return
+and replace. For qualifying MG3620 print defects, the default path is exchange
+rather than bench repair because repeated cleaning issues on this model are not
+handled as field-service events. Support issues the exchange authorization,
+explains packing requirements, and states whether the replacement is shipped
+before or after the defective unit is scanned by the carrier.
+
+When exchange is approved, support should tell the customer which accessories
+must be returned and which items to keep, such as opened ink consumables when
+the policy excludes them from the return carton. Support also provides the
+expected replacement timeline and explains that the replacement unit is matched
+to the original warranty term rather than starting a fresh 12-month period.
+
+## Eligibility limits
+
+Exchange is intended for persistent print-quality failures, not wireless setup
+problems, consumable depletion, or accidental breakage. Missing proof of
+purchase does not close the case, but it moves the request to manual warranty
+date verification. Escalate when the serial number is unreadable, the purchase
+date conflicts with the system record, or contamination from third-party ink
+makes eligibility uncertain.

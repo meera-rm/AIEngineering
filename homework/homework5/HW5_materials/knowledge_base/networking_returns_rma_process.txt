@@ -1,0 +1,54 @@
+---
+article_id: KB-SHIP-002
+title: Return Eligibility and RMA Process for Networking Hardware
+product: Networking Fulfillment
+topic: returns-rma
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+This article covers return requests for networking hardware after delivery. It
+is appropriate when a customer asks what happens if a router or similar product
+does not meet expectations and wants to understand the support process before
+ordering.
+
+## Eligibility
+
+Standard hardware returns are accepted within 30 calendar days of delivery when
+the customer requests a return merchandise authorization, or RMA, and the unit
+is returned with its original major components. Open-box returns are allowed,
+but missing modules, damaged ports, or altered serial labels move the case to
+manual review. Compatibility disappointment by itself does not guarantee a full
+refund if the product was sold correctly to the documented specification.
+
+## What the customer provides
+
+The customer should provide the order number, delivery date, model, serial
+number if available, and the reason for return. If the package arrived damaged,
+photos of the carton and contents are helpful. The customer is not expected to
+create the RMA code on their own.
+
+## What support provides
+
+Support confirms whether the request is inside the return window, issues the RMA
+identifier, and explains where the item must be shipped. If restocking applies,
+support states it before the return is finalized. Once the returned hardware is
+received and passes inspection, support closes the RMA and releases the refund
+or replacement outcome tied to the order type.
+
+When the customer is asking before purchase, support can explain that the RMA
+process exists without predicting the final inspection outcome in advance.
+Returned hardware is checked for missing accessories, altered serial labels, and
+obvious port damage before the case is completed. If inspection finds a mismatch
+with the submitted return reason, support documents that difference for the
+customer rather than silently reducing the outcome.
+
+## Limits
+
+This article does not estimate shipping transit times, provide technical sizing
+advice, or approve firmware-related warranty claims. Escalate only when the
+serial number does not match the shipped order or the return involves shipping
+damage across multiple boxes.

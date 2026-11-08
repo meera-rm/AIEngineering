@@ -1,0 +1,22 @@
+ticket_id,dimension,no_rag_score,rag_score,change,rag_rationale
+28763,1. Format and constraint compliance,Pass,Fail,Worse (Pass → Fail),"The missing_information item is a full sentence (""The customer needs to provide information about...""), not a short phrase."
+28763,2. Factual grounding,2,1,Worse (2 → 1),"Says the customer believes it is hardware ""rather than a software issue""; the ticket says ""rather than something that could be adjusted with simple settings modifications"" (slight overstatement). Everything else traces to the ticket."
+28763,"3. Summary describes the issue, not the ask",2,2,Same,"Describes the problem (persistent flickering, customer suspects a hardware fault) and adds detail customer_request does not have."
+28763,4. Request accuracy and completeness,1,1,Same score; main ask more accurate,"Main ask now captured precisely (next steps: at-home diagnosis or a technician's assessment), but the request for repair-policy and warranty information is still dropped."
+28763,5. Key context retained,1,1,Same,"Keeps the flickering and the hardware suspicion, but drops ""more pronounced over time"" (present in no-RAG) and all troubleshooting already tried."
+28763,6. Missing-information precision,0,2,Better (0 → 2),"The one item (which sources are affected) is a real detail the customer can give, prompted by the retrieved safe-checks article; it does not ask the customer to diagnose the fault."
+28763,7. Missing-information recall,1,1,Same,Still misses the purchase date needed for the warranty question; the warranty article was not in the top 5.
+29206,1. Format and constraint compliance,Pass,Fail,Worse (Pass → Fail),"Both missing_information items are full sentences, not short phrases."
+29206,2. Factual grounding,1,1,Same,"Still quotes the placeholder company_name as a real name and adds ""project management"" to the policy scope; also written in the customer's voice (""Our team..."", ""We need..."")."
+29206,"3. Summary describes the issue, not the ask",1,1,Same,"Summary still restates the ask (""seeking guidance on how to modify..."") and overlaps with customer_request."
+29206,4. Request accuracy and completeness,1,1,Same score; content worse,"Captures the workflow change (new statuses, transition conditions) but drops the asks for technical feasibility, timelines, plugins, documentation and a discussion, which no-RAG kept."
+29206,5. Key context retained,1,1,Same score; slightly better content,"Now keeps the requirement for additional statuses and transition conditions, but drops the custom priority field and dynamic adjustment."
+29206,6. Missing-information precision,2,2,Same,"Both items are real gaps the ticket does not state: priority names, definitions and order; affected projects, staging environment and Jira admin access."
+29206,7. Missing-information recall,2,2,Same score; more complete,"Catches the prioritization-matrix gap and adds further details support needs from the retrieved ""What the customer provides"" section."
+28921,1. Format and constraint compliance,Pass,Pass,Same,Valid JSON with the 3 fields; 1-sentence summary; empty list allowed; no fix proposed.
+28921,2. Factual grounding,2,2,Same,Every claim is in the ticket; nothing from the cut dashboard/consulting articles appears.
+28921,"3. Summary describes the issue, not the ask",1,2,Better (1 → 2),"Now adds the problem (""to address user navigation and information retrieval issues""), which customer_request does not contain."
+28921,4. Request accuracy and completeness,1,1,Same,"Identical to no-RAG: turns ""send your plan and implementation timeline"" into ""implement it"" (wrong-type rule: right subject, wrong type)."
+28921,5. Key context retained,0,0,Same,"Navigation issue now retained, but the customer's stated urgency is still dropped entirely."
+28921,6. Missing-information precision,2,2,Same,"Empty list, so no bad items."
+28921,7. Missing-information recall,1,1,Same,"Still does not flag which modules are hard to use or which reports are needed, both required to give a plan and timeline."

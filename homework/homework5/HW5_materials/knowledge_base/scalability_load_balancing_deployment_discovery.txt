@@ -1,0 +1,51 @@
+---
+article_id: KB-ARCH-002
+title: Discovery Requirements for Scalability, Load Balancing, and Deployment Reviews
+product: IT Consulting Service
+topic: architecture-discovery
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+This article supports architecture consultations where the customer wants advice
+about scalability, server efficiency, load balancing, deployment approach, or
+overall reliability. The article defines the discovery inputs needed before a
+specialist can recommend a design direction. It is intentionally narrower than
+a full architecture proposal.
+
+## What the customer provides
+
+The customer should provide a short description of the application or service,
+its main traffic pattern, expected peak load, and whether work is primarily
+interactive, scheduled, or batch-driven. Support also needs to know how
+sessions are handled, whether customers require geographic failover, and which
+parts of the current deployment cause the most concern. If the customer has
+deployment restrictions, such as limited maintenance windows or approval gates,
+those constraints should be listed early.
+
+For load-balancing discussions, useful inputs include current entry points,
+whether traffic must remain sticky, and any health-check behavior already in
+place. For deployment reviews, ask how releases are performed today, how often
+they happen, and what rollback capability already exists.
+
+## What support provides
+
+Support uses the discovery inputs to frame the consultation, identify the main
+tradeoffs to evaluate, and list which architecture topics are in scope for the
+first session. Typical outputs from discovery are a clarified problem
+statement, a set of design questions to answer, and a recommendation on whether
+the next session should focus on scaling strategy, resiliency, or deployment
+workflow. Support may explain concepts such as redundancy, balancing methods,
+and release isolation, but it does not finalize a customer-specific topology in
+the intake stage.
+
+## Limits
+
+Discovery does not select or approve an environment-specific solution. Its
+outputs are the questions and constraints a specialist must evaluate, not
+implementation deliverables. Escalate only when the customer indicates a
+current production instability that needs incident handling rather than a
+planned architecture consultation.

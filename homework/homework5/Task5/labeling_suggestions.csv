@@ -1,0 +1,51 @@
+query_id,rank,chunk_id,section_heading,suggested_relevant,suggested_note
+Q001,1,KB-AWS-MAINT-001#02,Expected impact,0,"Impact of a planned Nov 2023 maintenance window, not a current incident"
+Q001,2,KB-AWS-NEG-003#03,What the customer provides,1,Customer gives region + timestamp; support compares with the live status feed
+Q001,3,KB-AWS-MAINT-001#03,What support provides,0,Update cadence for that specific 2023 planned event
+Q001,4,KB-AWS-MAINT-001#01,Event summary,0,Summary of the 2023 planned event
+Q001,5,KB-AWS-NEG-003#01,Overview,1,"Covers current platform status: healthy, degraded or recovering"
+Q001,6,KB-AWS-NEG-003#02,What support provides,1,"Best match: incident state, region-wide degradations, time of last published update"
+Q001,7,KB-CONSULT-003#04,Escalation,0,Latency consulting; explicitly not a live outage
+Q001,8,KB-CONSULT-003#02,What the customer provides,0,Collecting latency evidence for consulting
+Q001,9,KB-AWS-NEG-003#04,Limits,0,BORDERLINE: only says what the article does not cover
+Q001,10,KB-AWS-MAINT-002#03,What support provides,0,Preparing for planned maintenance
+Q002,1,KB-JIRA-NEG-001#03,What support provides,1,Separate the event that triggered the mail from the workflow step
+Q002,2,KB-JIRA-002#04,Dynamic behavior and limits,1,Workflow article says it does not cover notification changes - confirms the split
+Q002,3,KB-JIRA-002#03,What support provides,1,Creating statuses and transitions
+Q002,4,KB-JIRA-002#02,What the customer provides,1,What is needed for a workflow change
+Q002,5,KB-JIRA-002#01,Overview,1,Adding statuses / modifying transitions
+Q002,6,KB-JIRA-NEG-001#02,What the customer provides,1,Scheme and workflow are different objects; which roles receive the email
+Q002,7,KB-JIRA-NEG-002#03,What support provides,0,"BORDERLINE: permissions/roles, mentions roles but not email"
+Q002,8,KB-JIRA-NEG-002#04,Limits,0,Permissions article limits
+Q002,9,KB-JIRA-001#03,What support provides,0,"Priority configuration, not asked about"
+Q002,10,KB-JIRA-NEG-002#01,Overview,0,Permission schemes
+Q003,1,KB-SHIP-NEG-001#03,What support provides,1,Address can change before carrier handoff; says whether it delays dispatch
+Q003,2,KB-SHIP-NEG-001#02,What the customer provides,1,What is needed for an address change
+Q003,3,KB-SHIP-NEG-001#04,Limits,0,BORDERLINE: only says what the article does not cover
+Q003,4,KB-SHIP-001#05,Limits,0,BORDERLINE: only says what the article does not cover
+Q003,5,KB-SHIP-NEG-001#01,Overview,1,Changing delivery address on an existing order
+Q003,6,KB-SHIP-001#04,What support provides,1,Confirms which shipping methods are available for the destination
+Q003,7,KB-CONSULT-002#02,What the customer provides,0,Ticketing-system intake
+Q003,8,KB-SHIP-001#03,What the customer provides,1,Destination and expedited choice needed for a quote
+Q003,9,KB-CISCO-NEG-001#03,What support provides,0,Firmware upgrades
+Q003,10,KB-SHIP-001#02,Standard timelines,1,"Expedited = 2-3 days, with eligibility conditions"
+Q004,1,KB-SAM-TV-001#03,What support provides,1,How support reads flicker results; persists on menu -> hardware/warranty routing
+Q004,2,KB-SAM-TV-001#02,Safe checks the customer can perform,1,Safe checks incl. built-in menu test
+Q004,3,KB-SAM-TV-001#04,Limits and escalation,1,Safe limits and when to escalate to authorized service
+Q004,4,KB-SAM-TV-001#01,Symptoms,1,Flicker symptoms; separates input vs panel issue
+Q004,5,KB-SAM-NEG-001#03,What support provides,0,Audio article; says picture flicker is out of scope
+Q004,6,KB-SAM-NEG-001#04,Limits,0,Audio limits; redirects menu flicker to display flow
+Q004,7,KB-SAM-TV-002#02,What the customer provides,1,Technician route: what the customer provides
+Q004,8,KB-SAM-NEG-001#02,Safe checks,0,Audio safe checks
+Q004,9,KB-SAM-TV-002#03,What support provides,1,Technician route: warranty check and dispatch
+Q004,10,KB-SAM-NEG-002#04,Limits,1,"BORDERLINE: return-window article; after window, goes to warranty - partly helps comparison"
+Q005,1,KB-DIST-001#03,What support provides,0,No MFA content; password reset only mentions MFA in passing
+Q005,2,KB-SHIP-002#02,Eligibility,0,Unrelated to MFA / security keys
+Q005,3,KB-SHIP-002#04,What support provides,0,Unrelated to MFA / security keys
+Q005,4,KB-DIST-001#02,What the customer provides,0,Unrelated to MFA / security keys
+Q005,5,KB-DIST-001#01,Overview,0,Unrelated to MFA / security keys
+Q005,6,KB-DIST-001#04,Limits,0,Unrelated to MFA / security keys
+Q005,7,KB-SHIP-002#01,Overview,0,Unrelated to MFA / security keys
+Q005,8,KB-SHIP-002#03,What the customer provides,0,Unrelated to MFA / security keys
+Q005,9,KB-SHIP-NEG-001#03,What support provides,0,Unrelated to MFA / security keys
+Q005,10,KB-SHIP-NEG-001#02,What the customer provides,0,Unrelated to MFA / security keys

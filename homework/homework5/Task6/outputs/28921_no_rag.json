@@ -1,0 +1,16 @@
+{
+  "ticket_id": 28921,
+  "mode": "no_rag",
+  "prompt_file": "prompt_v1.txt",
+  "model": "qwen2.5:1.5b-instruct-q4_K_M",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 512
+  },
+  "output": {
+    "summary": "The customer requests enhancements to the internal human resources management system, focusing on improved user interface design and data analysis capabilities.",
+    "customer_request": "Implement a redesigned user interface and advanced data analysis tools to improve user experience and efficiency.",
+    "missing_information": []
+  }
+}

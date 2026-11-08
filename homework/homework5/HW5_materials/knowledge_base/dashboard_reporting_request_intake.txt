@@ -1,0 +1,54 @@
+---
+article_id: KB-DASH-NEG-001
+title: Intake for Dashboard and Reporting Enhancement Requests
+product: Business Application Support
+topic: dashboard-reporting-intake
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when a customer requests additional dashboard views, revised
+report layouts, or new summary metrics in an existing business application. The
+article is an intake guide for scoping one reporting surface before product
+review.
+
+## What the customer provides
+
+The customer should describe which report or dashboard needs improvement, who
+uses it, and what decision the new view is supposed to support. If they want a
+new metric, support needs the business definition, desired grouping, and how the
+result would be judged successful. Screenshots of the current layout help, but a
+finished design mockup is not required.
+
+## What support provides
+
+Support logs the enhancement request, checks whether the desired change fits the
+current product area, and identifies whether the request is a small field-level
+adjustment or a broader product change. Support may clarify intake questions and
+route the request to product review. Product review, rather than intake support,
+decides whether the request enters the roadmap and whether further discovery is
+needed.
+
+If the customer asks for a more intuitive layout, support can capture which
+screens are confusing and which reporting outcomes are currently hard to reach.
+That information helps product review understand the request, but it is still an
+intake artifact rather than a design decision. Support-owned actions here are
+logging, categorizing, and routing the request, not promising scope or schedule.
+
+## Safe expectations
+
+Customers can reasonably expect acknowledgement, intake clarification, and
+routing to the correct review queue. If the request spans an entire application
+area rather than one report surface, support should preserve that scope in the
+intake notes instead of shrinking it into a misleadingly small configuration
+task. Intake acknowledgement confirms receipt only; it is not approval of the
+requested work.
+
+## Limits
+
+This process records reporting needs but does not supply an application-wide
+solution. Scope, feasibility, sequencing, and release commitments remain
+product-review decisions and are not determined by this intake article.

@@ -1,0 +1,50 @@
+---
+article_id: KB-CAN-PRINT-001
+title: Troubleshooting Streaks and Blotches on Canon PIXMA MG3620 Printers
+product: Canon PIXMA MG3620
+topic: print-quality
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Symptoms
+
+Use this article when a Canon PIXMA MG3620 produces poor print quality such as
+streaks, blotches, banding, or uneven color after normal cartridge checks. The
+goal is to document safe corrective steps and determine when the defect has
+persisted long enough to justify warranty handling.
+
+## Safe troubleshooting steps
+
+Start by confirming whether the issue appears on both plain-text pages and photo
+prints. Ask the customer to print a nozzle check pattern and keep the page as
+evidence. If gaps or smearing appear, the customer can run one standard head
+cleaning, wait five minutes, and print a second nozzle check. If the pattern is
+still poor, one deep cleaning cycle is acceptable. Support should not ask the
+customer to repeat cleaning over and over, because excessive cleaning consumes
+ink without resolving a hardware defect.
+
+The customer may also confirm that the cartridges are seated correctly, remove
+any protective tape that was left in place, and test with fresh paper stored in
+a dry location. If borderless photo output is affected but text pages are
+clean, support should ask for one standard document sample and one photo sample
+before moving on.
+
+## What the customer provides
+
+For quality cases, the customer should provide the printer serial number,
+purchase date if known, the nozzle check page or clear photos of it, and a note
+describing which troubleshooting steps have already been tried. If different
+paper types were tested, that detail is useful because it helps rule out media
+handling problems. The customer does not need to disassemble the unit or clean
+internal components by hand.
+
+## What support provides
+
+Support reviews the samples to decide whether the problem looks like clogged
+output, alignment drift, or a persistent print-path defect. When the customer
+has already completed the approved cleaning and alignment checks without
+improvement, support should stop further repetitive troubleshooting and move to
+warranty eligibility review. Escalate sooner if the printer smears immediately
+after setup, leaves ink pools, or cannot produce a readable nozzle check page.

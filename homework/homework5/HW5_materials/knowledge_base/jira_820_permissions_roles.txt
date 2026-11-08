@@ -1,0 +1,38 @@
+---
+article_id: KB-JIRA-NEG-002
+title: Project Permissions and Role Access in Jira Software 8.20
+product: Jira Software 8.20
+topic: permissions
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when a Jira 8.20 customer needs help with who can browse,
+create, transition, edit, or administer issues in a project. Permission-scheme
+questions often sound similar to workflow requests but are controlled
+independently.
+
+## What the customer provides
+
+The customer should identify the project, the affected users or groups, and the
+action they cannot perform. Helpful evidence includes the exact screen where
+access failed and whether the user recently changed roles.
+
+## What support provides
+
+Support checks the permission scheme, associated project roles, and whether the
+problem is caused by missing membership or by a separate workflow condition.
+Support may correct role assignments or permission mappings when the change is
+approved.
+
+The customer does not need to know the exact permission key names in advance.
+They do need to describe the blocked action clearly so support can tell whether
+the issue is access-related or part of the workflow design.
+
+## Limits
+
+This article does not tell the customer how to redesign statuses, transitions,
+or priority levels. Those changes require separate workflow guidance.

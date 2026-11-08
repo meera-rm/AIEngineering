@@ -1,0 +1,37 @@
+---
+article_id: KB-SERVER-NEG-001
+title: Baseline Monitoring and Alert Coverage for Server Operations
+product: IT Operations Guidance
+topic: server-monitoring
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when a customer asks what a basic monitoring program should
+cover for servers. It addresses general operating signals such as CPU, memory,
+disk, service availability, and alert routing. It is operational background,
+not a design for changing an environment.
+
+## What the customer provides
+
+The customer should identify which server groups are in scope, which alerts they
+already receive, and which failures are currently detected too late. If they
+have uptime targets or after-hours coverage constraints, those details are
+useful for alert tuning discussions.
+
+## What support provides
+
+Support can explain which baseline indicators are commonly monitored, how noisy
+alerts are reduced through thresholds and ownership, and why operational teams
+separate symptom alerts from capacity trend reporting. Support may also suggest
+collecting evidence before a deeper consultation if the customer reports an
+intermittent performance issue.
+
+## Limits
+
+Baseline monitoring concepts do not determine which broader changes are
+appropriate for a customer's environment. Selection and implementation
+decisions require a separately scoped technical assessment.

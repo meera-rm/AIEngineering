@@ -1,0 +1,49 @@
+---
+article_id: KB-SAM-TV-001
+title: Safe Troubleshooting for Intermittent Flicker on Samsung QN90A TVs
+product: Samsung QN90A
+topic: display-flicker
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Symptoms
+
+Use this article when a Samsung QN90A owner reports intermittent screen
+flicker, brightness pulsing, or rapid flashing that disrupts viewing. The goal
+is to separate input-related behavior from a likely panel or control-board issue
+without asking the customer to open the television or perform unsafe hardware
+work.
+
+## Safe checks the customer can perform
+
+Ask the customer to note whether the flicker appears on every source or only on
+one device. A useful first check is opening the TV home menu or a built-in app;
+if flicker is visible there as well, the problem is less likely to be caused by
+an external cable or player. For external sources, the customer can reseat the
+HDMI cable, try a known-good cable, and temporarily set the source output to a
+standard refresh rate such as 60 Hz.
+
+The customer may also power the TV off, unplug it for one minute, and reconnect
+it directly to a wall outlet if it was previously attached to a power strip.
+Picture settings that aggressively alter brightness can be turned off for
+testing, including contrast enhancer and motion smoothing. These checks are safe
+because they are reversible and do not require service access.
+
+## What support provides
+
+Support interprets the results. If flicker persists on the built-in menu,
+continues after a clean power cycle, and is unaffected by input changes, support
+should treat the case as a likely hardware-path issue that needs warranty
+routing or technician assessment. If the flicker happens only with one source,
+support can narrow the next step to cabling or source configuration rather than
+the display assembly.
+
+## Limits and escalation
+
+Do not ask the customer to remove the back cover, press on the panel, reseat
+internal boards, or repeatedly factory-reset the unit. Escalate to authorized
+service when the symptom persists after the safe checks above, when the screen
+shows flicker before any external source is selected, or when the problem has
+become more frequent over time.

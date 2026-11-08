@@ -1,0 +1,36 @@
+---
+article_id: KB-DIST-002
+title: Intake for Subscription Cancellation Requests
+product: Subscription Support
+topic: cancellation-intake
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when a customer wants to cancel a recurring service subscription
+and needs the request logged correctly. It is unrelated to hardware returns,
+feature requests, consultations, or billing-discrepancy review.
+
+## What the customer provides
+
+The customer should provide the account or subscription number, the service they
+want cancelled, and the requested effective date. If a contract term exists, the
+customer may also be asked to confirm whether they want cancellation at term end
+or an earlier reviewed exception.
+
+## What support provides
+
+Support confirms the subscription status, records the cancellation request,
+explains the notice period that applies, and tells the customer whether any data
+export or final billing steps remain before closure. Refund decisions, if any,
+are handled under separate contract review rules.
+
+## Limits
+
+This article does not approve billing adjustments, cancel hardware orders in
+transit, or act as a return authorization. If the customer is actually disputing
+a charge or returning equipment, support should move to the correct policy
+process.

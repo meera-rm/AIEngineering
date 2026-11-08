@@ -1,0 +1,35 @@
+---
+article_id: KB-SAM-NEG-002
+title: Retail Return Windows for Samsung Televisions Purchased Through the Store
+product: Consumer Electronics Store Support
+topic: retail-returns
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+This article applies when a customer wants to return a Samsung television to the
+retailer instead of pursuing manufacturer warranty service. It is designed for
+store-return questions such as return window, packaging expectations, and refund
+processing.
+
+## Policy summary
+
+Store returns are accepted within 21 calendar days of delivery when the TV is
+returned with major accessories and the serial number matches the original
+order. If the carton is missing or the set shows installation damage, the return
+may still be reviewed, but refund timing changes because inspection is required.
+
+## What the customer provides
+
+The customer should provide the order number, delivery date, and the reason they
+want to return the unit. If the set arrived visibly damaged, photos of the box
+and screen are helpful.
+
+## Limits
+
+This article does not determine manufacturer warranty coverage, authorize field
+technician visits, or diagnose flicker symptoms. Once the store return window
+has passed, the request moves to the hardware warranty process.

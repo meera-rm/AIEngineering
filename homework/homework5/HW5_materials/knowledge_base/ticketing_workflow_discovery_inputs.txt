@@ -1,0 +1,56 @@
+---
+article_id: KB-CONSULT-002
+title: Discovery Inputs for Ticketing Workflow Recommendations
+product: IT Consulting Service
+topic: ticketing-workflow-discovery
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+This article supports consultation requests about setting up or improving a
+ticketing system. It is meant for customers who want better request routing,
+clearer prioritization, smoother upgrade handling, or easier day-to-day use for
+their internal team. A useful recommendation depends on understanding the
+customer's current workflow and constraints rather than starting with a generic
+template.
+
+## What the customer provides
+
+The customer should provide the channels where requests currently arrive, the
+main categories of work they want tracked, and how they want urgent versus
+routine issues distinguished. If they already use approval steps, escalation
+paths, or service targets, those should be shared as part of intake. For teams
+that mention upgrade handling, support also needs to know whether upgrades are
+approved in one queue, in a separate change flow, or outside the ticketing
+system today.
+
+The customer does not need to propose a final workflow diagram. The point of
+discovery is to uncover it.
+
+## What support provides
+
+Support reviews the intake information and prepares a discovery worksheet that
+maps request sources, queue owners, priority rules, and handoff points. During
+the consultation, support helps identify where delays occur, whether the
+workflow needs additional statuses, and where a simpler intake form would
+improve adoption. Recommendations may cover prioritization logic, queue design,
+and change-approval flow, but only after the current process is understood.
+
+If the customer highlights ease of use or customer-support integration, support
+should ask for specific friction points such as duplicate entry, unclear queue
+ownership, or delayed handoff between teams. Sample forms, one week of typical
+requests, and a list of must-have reports are often enough to make the first
+session concrete without pretending the workflow can be redesigned from a single
+email.
+
+## Limits
+
+A workflow discovery article does not answer architecture design questions,
+server tuning, or product-specific administration steps for unrelated systems.
+It also does not promise a customer-specific implementation plan before
+consultation. If the customer cannot describe their current intake path at all,
+support should still schedule discovery and ask them to gather one week of
+sample requests before the session.

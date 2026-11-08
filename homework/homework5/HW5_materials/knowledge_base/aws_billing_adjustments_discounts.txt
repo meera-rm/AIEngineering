@@ -1,0 +1,52 @@
+---
+article_id: KB-AWS-BILL-002
+title: AWS Management Service Adjustment and Discount Eligibility
+product: AWS Management Service
+topic: billing-adjustments-discounts
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+This article explains when support may recommend a billing adjustment, service
+credit, or discount review after an AWS Management Service statement has been
+examined. Customers often ask whether unapplied pricing options, revised usage
+bands, or agreement-based discounts should have lowered the total. Eligibility
+is determined after the billing review, not from the request alone.
+
+## Adjustment eligibility
+
+An adjustment may be considered when support confirms one of three conditions:
+the customer was billed for a managed service task that was not executed, an
+approved service credit from the same billing cycle was omitted, or the account
+was mapped to the wrong rate schedule under the current agreement. Adjustments
+are not issued because the customer's forecast was lower than the final usage,
+because traffic volume increased unexpectedly, or because a project became more
+expensive than planned.
+
+## Discount review
+
+Discount review applies when the customer asks whether a better pricing
+mechanism should have been used. Support checks whether the account met the
+usage-band threshold defined in its service agreement for the full billing
+cycle, whether a scheduled promotional discount was active during that period,
+and whether the customer's service package allowed bundled rate treatment across
+multiple managed environments. If the conditions were not continuously met,
+support explains why no discount was applied.
+
+## What the customer provides and what support decides
+
+The customer should provide the account number, the disputed statement period,
+and any documentation that mentions the rate or discount they expected. They do
+not need to calculate the corrected amount. Support verifies the agreement
+terms, reviews usage against the threshold rules, and states whether the result
+is no change, an adjustment recommendation, or referral to finance approval.
+
+## Limits
+
+Support can explain available paths and recommend an adjustment, but final
+posting is performed by finance operations. Courtesy credits are not part of
+the standard AWS Management Service policy. Escalate only when the billing
+review confirms an internal rating error or an omitted approved credit.

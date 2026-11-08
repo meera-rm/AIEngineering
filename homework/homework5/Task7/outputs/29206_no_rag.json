@@ -1,0 +1,18 @@
+{
+  "ticket_id": 29206,
+  "mode": "no_rag",
+  "prompt_file": "prompt_v1.txt",
+  "model": "qwen2.5:1.5b-instruct-q4_K_M",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 512
+  },
+  "output": {
+    "summary": "The customer team at company_name is seeking guidance on implementing modifications to Jira Software 8.20 to better align with their new company policies regarding ticket prioritization and project management.",
+    "customer_request": "Provide guidance on the best approach for implementing workflow modifications to Jira Software 8.20, including technical feasibility, potential timelines, and any necessary plugins or documentation.",
+    "missing_information": [
+      "The specific details of the new company policies regarding ticket prioritization and project management."
+    ]
+  }
+}

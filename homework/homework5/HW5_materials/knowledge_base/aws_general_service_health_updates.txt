@@ -1,0 +1,35 @@
+---
+article_id: KB-AWS-NEG-003
+title: General AWS Management Service Health and Status Updates
+product: AWS Management Service
+topic: general-service-health
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article for general questions about current platform status, broad
+service health summaries, and unscheduled impact notices affecting AWS
+Management Service. It is intended for customers asking whether the managed
+platform is presently healthy, degraded, or recovering.
+
+## What support provides
+
+Support can summarize whether the service is operating normally, whether an
+unscheduled incident is open, and whether any region-wide degradations are under
+investigation. General health updates include the incident state, affected
+components, and the time of the last published update.
+
+## What the customer provides
+
+Customers usually only need to provide the region or managed environment they
+are asking about. If they report a symptom, a timestamp and short impact
+description help support compare it with the live status feed.
+
+## Limits
+
+This article is not a scheduled-maintenance notice and does not provide the
+scope, timing, or preparation steps for a named planned event. Planned
+maintenance guidance is handled separately from general health reporting.

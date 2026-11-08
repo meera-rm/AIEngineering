@@ -1,0 +1,22 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "Our managed environment in eu-west is responding inconsistently today. Is there a current regional incident, and when was its status last updated?"
+  },
+  {
+    "query_id": "Q002",
+    "query": "We are adding a Jira review state and want a specific project role emailed when that transition occurs. Which workflow and mail-routing configurations must be handled separately?"
+  },
+  {
+    "query_id": "Q003",
+    "query": "Our router order is still editable: we need to change its destination and find out whether expedited service remains available after the update."
+  },
+  {
+    "query_id": "Q004",
+    "query": "A recently delivered QN90A flickers on internal menus. We need safe diagnostic steps and a comparison of the still-open store-return route with manufacturer technician service."
+  },
+  {
+    "query_id": "Q005",
+    "query": "Can you enroll a new hardware security key for multifactor authentication and revoke the employee's lost authenticator?"
+  }
+]

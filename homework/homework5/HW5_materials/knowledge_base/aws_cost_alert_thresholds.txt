@@ -1,0 +1,36 @@
+---
+article_id: KB-AWS-NEG-002
+title: Setting Cost Alert Thresholds for AWS Management Service Accounts
+product: AWS Management Service
+topic: cost-alerts
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+This article covers proactive cost alerts for customers who want notice when
+spend crosses a monthly threshold. It is useful for budget monitoring and early
+warning, not for reviewing past invoices or requesting an adjustment after the
+fact.
+
+## What the customer provides
+
+Support needs the account number, the threshold amount or percentage, and the
+email contacts or distribution list that should receive the alert. Customers may
+also choose whether they want one warning level or multiple levels such as 75
+percent and 90 percent of expected spend.
+
+## What support provides
+
+Support confirms whether alerting is enabled on the managed account, records the
+threshold values, and states when alerts are evaluated. In this corpus, standard
+cost alerts are checked every six hours against accumulated managed-service
+spend. Support can also explain how alert recipients are updated if team
+ownership changes.
+
+## Limits
+
+Cost alerts do not recalculate charges, identify billing discrepancies, or
+provide service-health notices. They are preventive controls only.

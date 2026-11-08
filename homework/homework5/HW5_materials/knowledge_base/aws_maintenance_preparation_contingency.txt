@@ -1,0 +1,55 @@
+---
+article_id: KB-AWS-MAINT-002
+title: Customer Preparation and Contingency Planning for Scheduled AWS Maintenance
+product: AWS Management Service
+topic: maintenance-preparation
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when a customer asks how to prepare for a scheduled AWS
+Management Service maintenance event and wants practical steps to limit
+disruption. The objective is readiness and contingency planning, not risky
+last-minute architecture changes.
+
+## What the customer should do before the window
+
+Customers should review whether any planned deployments, scaling changes, or
+configuration edits can be moved outside the maintenance window. For event
+`AMS-2023-Q4-NET-17`, support recommends pausing non-urgent management changes
+starting six hours before the scheduled start. The customer should confirm their
+primary and backup technical contacts, make sure on-call staff know the event
+ID and UTC timing, and save current runbooks where the team can reach them
+quickly.
+
+If the workload has business-critical transaction periods, the customer should
+identify the expected impact if management-plane updates are delayed for up to
+10 minutes. A recent read-only export of key configuration records and a
+baseline capture of application health are useful because they help the team
+recognize whether observed behavior during the window is new.
+
+## What support provides
+
+Support explains the maintenance scope, clarifies what is and is not expected to
+be affected, and tells the customer how status updates will be shared. If the
+customer asks about contingency planning, support may recommend staffing the
+window, deferring optional changes, and confirming that customer-owned alerting
+is monitored closely until the maintenance complete message is posted. Support
+can also help identify which managed actions should not be queued during the
+event.
+
+## Safe boundaries
+
+Do not advise customers to disable safeguards, rotate credentials, force
+failovers, or redesign routing shortly before a planned maintenance event unless
+another approved procedure explicitly requires it. The maintenance article is
+not a reason to introduce high-risk changes.
+
+## Escalation
+
+Escalate during the event if customer workloads become unavailable, if an
+interruption lasts longer than the notice predicted, or if the maintenance
+updates stop for more than 45 minutes while the event is still open.

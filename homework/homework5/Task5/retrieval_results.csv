@@ -1,0 +1,394 @@
+query_id,query,rank,chunk_id,distance,article_id,title,section_heading,content,relevant,label_note
+Q001,"Our managed environment in eu-west is responding inconsistently today. Is there a current regional incident, and when was its status last updated?",1,KB-AWS-MAINT-001#02,0.2979,KB-AWS-MAINT-001,Maintenance Notice AMS-2023-Q4-NET-17 for AWS Management Service,Expected impact,"## Expected impact
+
+During the window, customers may see delayed dashboard status refreshes and up
+to two short control-plane interruptions, each not expected to exceed 10
+minutes. The event does not call for customer-side service restarts. If a
+customer relies on just-in-time infrastructure changes during the window, those
+changes should be rescheduled when possible.",0,Planned Nov 2023 maintenance impact; query asks about a current incident
+Q001,"Our managed environment in eu-west is responding inconsistently today. Is there a current regional incident, and when was its status last updated?",2,KB-AWS-NEG-003#03,0.2984,KB-AWS-NEG-003,General AWS Management Service Health and Status Updates,What the customer provides,"## What the customer provides
+
+Customers usually only need to provide the region or managed environment they
+are asking about. If they report a symptom, a timestamp and short impact
+description help support compare it with the live status feed.",1,Customer gives region + timestamp; support compares with the live status feed
+Q001,"Our managed environment in eu-west is responding inconsistently today. Is there a current regional incident, and when was its status last updated?",3,KB-AWS-MAINT-001#03,0.2997,KB-AWS-MAINT-001,Maintenance Notice AMS-2023-Q4-NET-17 for AWS Management Service,What support provides,"## What support provides
+
+Support should quote the event ID, planned start and end time, and the managed
+service components affected. Updates are posted at event start, every 30
+minutes while work remains active, and at completion. If the interruption
+exceeds the notice threshold, support opens an incident bridge and posts an
+unscheduled-impact update tied to the same event ID.",0,"Update cadence for one specific 2023 planned event, not current status"
+Q001,"Our managed environment in eu-west is responding inconsistently today. Is there a current regional incident, and when was its status last updated?",4,KB-AWS-MAINT-001#01,0.3035,KB-AWS-MAINT-001,Maintenance Notice AMS-2023-Q4-NET-17 for AWS Management Service,Event summary,"## Event summary
+
+Maintenance event `AMS-2023-Q4-NET-17` is a scheduled AWS Management Service
+network-control update planned for 18 November 2023 from 02:00 UTC to 04:00
+UTC. The change window is expected to affect management-plane actions only. The
+notice states that running customer workloads should remain online, but managed
+scaling actions, configuration pushes, and health-status propagation may pause
+briefly during the event.",0,Summary of the 2023 planned event; not a current regional incident
+Q001,"Our managed environment in eu-west is responding inconsistently today. Is there a current regional incident, and when was its status last updated?",5,KB-AWS-NEG-003#01,0.3127,KB-AWS-NEG-003,General AWS Management Service Health and Status Updates,Overview,"## Overview
+
+Use this article for general questions about current platform status, broad
+service health summaries, and unscheduled impact notices affecting AWS
+Management Service. It is intended for customers asking whether the managed
+platform is presently healthy, degraded, or recovering.",1,"Covers current platform status: healthy, degraded or recovering"
+Q001,"Our managed environment in eu-west is responding inconsistently today. Is there a current regional incident, and when was its status last updated?",6,KB-AWS-NEG-003#02,0.3138,KB-AWS-NEG-003,General AWS Management Service Health and Status Updates,What support provides,"## What support provides
+
+Support can summarize whether the service is operating normally, whether an
+unscheduled incident is open, and whether any region-wide degradations are under
+investigation. General health updates include the incident state, affected
+components, and the time of the last published update.",1,"Best match: incident state, region-wide degradations and time of last published update"
+Q001,"Our managed environment in eu-west is responding inconsistently today. Is there a current regional incident, and when was its status last updated?",7,KB-CONSULT-003#04,0.3448,KB-CONSULT-003,Preparing Latency Evidence Before a Server Management Consultation,Escalation,"## Escalation
+
+This preparation article is for intermittent latency, not a live outage. If the
+customer reports an active service interruption lasting more than 15 minutes, no
+current access to core systems, or repeated crashes, route the case to the
+operations response team before continuing consultation planning.",0,Latency consulting; explicitly not a live outage
+Q001,"Our managed environment in eu-west is responding inconsistently today. Is there a current regional incident, and when was its status last updated?",8,KB-CONSULT-003#02,0.3449,KB-CONSULT-003,Preparing Latency Evidence Before a Server Management Consultation,What the customer provides,"## What the customer provides
+
+Ask the customer for the date and approximate time of at least three recent
+latency events, which applications or services were affected, and whether the
+slowdown was visible to end users or only to administrators. Helpful evidence
+includes CPU, memory, disk, and network utilization from the same period;
+server role labels; recent patching or deployment activity; and whether the
+problem appeared on one system or across a cluster. A brief note about business
+impact, such as delayed request handling or missed job windows, helps support
+prioritize the consultation.
+
+Customers should gather evidence only through existing dashboards, operating
+system counters, or exported logs. They should not change live performance
+settings, restart services, or disable protections solely to produce data.",0,Collecting latency evidence for consulting; not incident status
+Q001,"Our managed environment in eu-west is responding inconsistently today. Is there a current regional incident, and when was its status last updated?",9,KB-AWS-NEG-003#04,0.3454,KB-AWS-NEG-003,General AWS Management Service Health and Status Updates,Limits,"## Limits
+
+This article is not a scheduled-maintenance notice and does not provide the
+scope, timing, or preparation steps for a named planned event. Planned
+maintenance guidance is handled separately from general health reporting.",0,Limits section; only states what the article does not cover - no usable info (Rule A)
+Q001,"Our managed environment in eu-west is responding inconsistently today. Is there a current regional incident, and when was its status last updated?",10,KB-AWS-MAINT-002#03,0.3524,KB-AWS-MAINT-002,Customer Preparation and Contingency Planning for Scheduled AWS Maintenance,What support provides,"## What support provides
+
+Support explains the maintenance scope, clarifies what is and is not expected to
+be affected, and tells the customer how status updates will be shared. If the
+customer asks about contingency planning, support may recommend staffing the
+window, deferring optional changes, and confirming that customer-owned alerting
+is monitored closely until the maintenance complete message is posted. Support
+can also help identify which managed actions should not be queued during the
+event.",0,Preparing for planned maintenance; not a current incident
+Q002,We are adding a Jira review state and want a specific project role emailed when that transition occurs. Which workflow and mail-routing configurations must be handled separately?,1,KB-JIRA-NEG-001#03,0.2358,KB-JIRA-NEG-001,Notification Schemes and Watchers in Jira Software 8.20,What support provides,"## What support provides
+
+Support reviews the notification scheme, watcher settings, and event mapping to
+explain why a message was or was not sent. Changes are limited to mail-routing
+behavior and recipient scope.
+
+Customers often describe this as a workflow problem because the email is sent
+after an issue changes status. Support should still separate the event that
+triggered the mail from the workflow step itself before changing any settings.",1,Separates the event that triggers the mail from the workflow step
+Q002,We are adding a Jira review state and want a specific project role emailed when that transition occurs. Which workflow and mail-routing configurations must be handled separately?,2,KB-JIRA-002#04,0.2381,KB-JIRA-002,Adding Workflow Statuses and Transition Conditions in Jira Software 8.20,Dynamic behavior and limits,"## Dynamic behavior and limits
+
+When a customer asks for issue handling to shift dynamically as project goals
+change, support should narrow the request to explicit rules rather than vague
+optimization. Jira can enforce named statuses and documented transition
+conditions, but it cannot infer business priority without a defined policy
+matrix. This article does not cover notification changes or permission-scheme
+design. Escalate when multiple projects share one workflow and the requested
+change would affect teams outside the customer's approved scope.",1,Workflow article states it does not cover notification changes - confirms they are handled separately
+Q002,We are adding a Jira review state and want a specific project role emailed when that transition occurs. Which workflow and mail-routing configurations must be handled separately?,3,KB-JIRA-002#03,0.2407,KB-JIRA-002,Adding Workflow Statuses and Transition Conditions in Jira Software 8.20,What support provides,"## What support provides
+
+Support reviews the requested workflow map, checks for conflicts with existing
+boards and issue screens, and advises whether the change fits native Jira 8.20
+workflow capabilities. Standard support can help create new statuses, add or
+restrict transitions, and apply clear transition conditions when the approval
+rules are already defined. After configuration, support should validate that
+issues can still move through the intended path and that no team loses the
+ability to complete required work.
+
+Once the before-and-after map and transition rules are complete, support
+provides a change estimate. A single-project workflow with defined conditions
+normally requires four business days for staging configuration and validation.
+Shared workflows or dynamic rules require specialist review before a timeline
+or plugin need can be confirmed. These are support-owned conclusions, not
+details the customer is expected to supply.",1,Creating statuses and transitions (the review state)
+Q002,We are adding a Jira review state and want a specific project role emailed when that transition occurs. Which workflow and mail-routing configurations must be handled separately?,4,KB-JIRA-002#02,0.2497,KB-JIRA-002,Adding Workflow Statuses and Transition Conditions in Jira Software 8.20,What the customer provides,"## What the customer provides
+
+Support should ask for the current workflow name, the issue types affected, and
+a simple before-and-after list of statuses and allowed transitions. If the
+customer wants transitions to depend on priority, approval, or issue state, the
+exact rule must be supplied in business language so it can be translated into
+workflow conditions without guessing. A staging project or test window is also
+important because workflow changes can affect active teams immediately.
+
+The customer does not need to predefine every Jira configuration detail, but
+they do need to state which statuses should be added, removed, or repurposed.",1,What support needs for a workflow change
+Q002,We are adding a Jira review state and want a specific project role emailed when that transition occurs. Which workflow and mail-routing configurations must be handled separately?,5,KB-JIRA-002#01,0.2620,KB-JIRA-002,Adding Workflow Statuses and Transition Conditions in Jira Software 8.20,Overview,"## Overview
+
+This article supports Jira 8.20 requests to add statuses, modify transitions,
+or align workflow conditions with a new ticket handling policy. It is commonly
+retrieved alongside the custom priority article because teams often need both
+sets of changes to reflect a revised issue process.",1,Adding statuses and modifying transitions
+Q002,We are adding a Jira review state and want a specific project role emailed when that transition occurs. Which workflow and mail-routing configurations must be handled separately?,6,KB-JIRA-NEG-001#02,0.2671,KB-JIRA-NEG-001,Notification Schemes and Watchers in Jira Software 8.20,What the customer provides,"## What the customer provides
+
+Support should ask which project is affected, which event sends the unwanted or
+missing email, and which users or roles are expected to receive it. If the
+customer references a custom workflow, support still needs the notification
+scheme name separately because the scheme and the workflow are different objects.",1,Notification scheme and workflow are different objects; which roles receive the email
+Q002,We are adding a Jira review state and want a specific project role emailed when that transition occurs. Which workflow and mail-routing configurations must be handled separately?,7,KB-JIRA-NEG-002#03,0.2680,KB-JIRA-NEG-002,Project Permissions and Role Access in Jira Software 8.20,What support provides,"## What support provides
+
+Support checks the permission scheme, associated project roles, and whether the
+problem is caused by missing membership or by a separate workflow condition.
+Support may correct role assignments or permission mappings when the change is
+approved.
+
+The customer does not need to know the exact permission key names in advance.
+They do need to describe the blocked action clearly so support can tell whether
+the issue is access-related or part of the workflow design.",0,"Permission schemes and roles; about access, not email routing"
+Q002,We are adding a Jira review state and want a specific project role emailed when that transition occurs. Which workflow and mail-routing configurations must be handled separately?,8,KB-JIRA-NEG-002#04,0.2706,KB-JIRA-NEG-002,Project Permissions and Role Access in Jira Software 8.20,Limits,"## Limits
+
+This article does not tell the customer how to redesign statuses, transitions,
+or priority levels. Those changes require separate workflow guidance.",0,Permissions article limits; no workflow or notification info
+Q002,We are adding a Jira review state and want a specific project role emailed when that transition occurs. Which workflow and mail-routing configurations must be handled separately?,9,KB-JIRA-001#03,0.2721,KB-JIRA-001,Custom Priority Configuration in Jira Software 8.20,What support provides,"## What support provides
+
+Support confirms that Jira 8.20 can host a revised priority scheme without a
+plugin for the core priority field itself. Before implementation, support
+advises taking a configuration snapshot and testing the new values in staging
+when available. The normal sequence is to create or rename priority values,
+confirm their display order, map any dependent boards or filters that reference
+old names, and then verify that issue creation and search still behave as
+expected.
+
+If the customer asks for dynamic reprioritization tied to project state or
+business goals, support should treat that as a second decision point. Basic
+priority changes are straightforward; automatic priority changes require an
+approved ruleset and separate review of whether native automation already in
+place can support it.",0,Custom priority configuration; not asked about
+Q002,We are adding a Jira review state and want a specific project role emailed when that transition occurs. Which workflow and mail-routing configurations must be handled separately?,10,KB-JIRA-NEG-002#01,0.2769,KB-JIRA-NEG-002,Project Permissions and Role Access in Jira Software 8.20,Overview,"## Overview
+
+Use this article when a Jira 8.20 customer needs help with who can browse,
+create, transition, edit, or administer issues in a project. Permission-scheme
+questions often sound similar to workflow requests but are controlled
+independently.",0,Permission scheme overview; not workflow or mail routing
+Q003,Our router order is still editable: we need to change its destination and find out whether expedited service remains available after the update.,1,KB-SHIP-NEG-001#03,0.2608,KB-SHIP-NEG-001,Shipping Address Change Requests for Hardware Orders,What support provides,"## What support provides
+
+Support can update the address only before carrier handoff. Once the package has
+been manifested and transferred to the carrier, the original address must remain
+in place unless the carrier separately approves a reroute request. Support
+should tell the customer whether the order is still editable and whether the
+change will delay dispatch.",1,Address can change before carrier handoff; says whether the change delays dispatch
+Q003,Our router order is still editable: we need to change its destination and find out whether expedited service remains available after the update.,2,KB-SHIP-NEG-001#02,0.2966,KB-SHIP-NEG-001,Shipping Address Change Requests for Hardware Orders,What the customer provides,"## What the customer provides
+
+Support needs the order number, the requested new address, and confirmation of
+whether the order has already shipped. If the destination change affects tax or
+export screening, the customer may also be asked to reconfirm billing details.",1,What support needs for an address change
+Q003,Our router order is still editable: we need to change its destination and find out whether expedited service remains available after the update.,3,KB-SHIP-NEG-001#04,0.3118,KB-SHIP-NEG-001,Shipping Address Change Requests for Hardware Orders,Limits,"## Limits
+
+This article does not estimate delivery timelines for a future purchase and does
+not create tracking numbers before shipment.",0,Limits section; only states what the article does not cover - no usable info (Rule A)
+Q003,Our router order is still editable: we need to change its destination and find out whether expedited service remains available after the update.,4,KB-SHIP-001#05,0.3292,KB-SHIP-001,Shipping Methods and Tracking for Networking Equipment Orders,Limits,"## Limits
+
+This article does not authorize shipping-address changes after carrier handoff
+and does not define the return window if the product is unsuitable. Those are
+separate processes with different requirements.",0,Limits section; only says address changes are out of scope for this article - no usable info (Rule A)
+Q003,Our router order is still editable: we need to change its destination and find out whether expedited service remains available after the update.,5,KB-SHIP-NEG-001#01,0.3301,KB-SHIP-NEG-001,Shipping Address Change Requests for Hardware Orders,Overview,"## Overview
+
+Use this article when a customer wants to change the delivery address on an
+existing hardware order. This process is separate from quoting shipping speed,
+tracking a package, or explaining the return window.",1,Changing the delivery address on an existing order
+Q003,Our router order is still editable: we need to change its destination and find out whether expedited service remains available after the update.,6,KB-SHIP-001#04,0.3473,KB-SHIP-001,Shipping Methods and Tracking for Networking Equipment Orders,What support provides,"## What support provides
+
+Support checks inventory status, confirms which shipping methods are available
+for the destination, and explains the quoted transit range. Once the order is
+dispatched, tracking details are normally posted to the order record within 24
+hours and can also be sent by email on request. If multiple packages are used,
+support explains which items are in each shipment.
+
+Support should also explain that quoted delivery windows assume the order clears
+verification before the daily cutoff. If stock must be moved between warehouses,
+the customer should be told that dispatch timing may shift by one business day
+even when the selected carrier service remains the same. For time-sensitive
+projects, support can note whether split shipment is available so essential
+hardware can leave first and accessories can follow.",1,Confirms which shipping methods are available for the destination
+Q003,Our router order is still editable: we need to change its destination and find out whether expedited service remains available after the update.,7,KB-CONSULT-002#02,0.3551,KB-CONSULT-002,Discovery Inputs for Ticketing Workflow Recommendations,What the customer provides,"## What the customer provides
+
+The customer should provide the channels where requests currently arrive, the
+main categories of work they want tracked, and how they want urgent versus
+routine issues distinguished. If they already use approval steps, escalation
+paths, or service targets, those should be shared as part of intake. For teams
+that mention upgrade handling, support also needs to know whether upgrades are
+approved in one queue, in a separate change flow, or outside the ticketing
+system today.
+
+The customer does not need to propose a final workflow diagram. The point of
+discovery is to uncover it.",0,Ticketing-system discovery intake; unrelated
+Q003,Our router order is still editable: we need to change its destination and find out whether expedited service remains available after the update.,8,KB-SHIP-001#03,0.3567,KB-SHIP-001,Shipping Methods and Tracking for Networking Equipment Orders,What the customer provides,"## What the customer provides
+
+To quote a realistic delivery window, support needs the destination region,
+whether the order is shipping to a business or residential address, and whether
+the customer wants standard, expedited, or priority service. The customer does
+not need a tracking number before the order has shipped.",1,Destination and expedited choice are needed to quote delivery
+Q003,Our router order is still editable: we need to change its destination and find out whether expedited service remains available after the update.,9,KB-CISCO-NEG-001#03,0.3596,KB-CISCO-NEG-001,Firmware Planning Limits for Cisco ISR4331 Routers,What support provides,"## What support provides
+
+Support can confirm whether the requested upgrade path is within the internally
+approved software family, whether an intermediate release is required, and what
+pre-change checks are expected. The normal advice is to save the running
+configuration, verify console access, and schedule the change during a controlled
+window.",0,Router firmware upgrades; unrelated
+Q003,Our router order is still editable: we need to change its destination and find out whether expedited service remains available after the update.,10,KB-SHIP-001#02,0.3604,KB-SHIP-001,Shipping Methods and Tracking for Networking Equipment Orders,Standard timelines,"## Standard timelines
+
+For in-stock hardware, standard ground delivery is quoted at five to seven
+business days from order release. Expedited delivery is two to three business
+days, and priority overnight service is available in eligible metro regions for
+orders cleared before the daily cutoff. Delivery commitments begin after order
+verification and payment approval, not when the cart is created or the inquiry
+is sent.",1,"Expedited = 2-3 business days, with eligibility conditions"
+Q004,A recently delivered QN90A flickers on internal menus. We need safe diagnostic steps and a comparison of the still-open store-return route with manufacturer technician service.,1,KB-SAM-TV-001#03,0.1744,KB-SAM-TV-001,Safe Troubleshooting for Intermittent Flicker on Samsung QN90A TVs,What support provides,"## What support provides
+
+Support interprets the results. If flicker persists on the built-in menu,
+continues after a clean power cycle, and is unaffected by input changes, support
+should treat the case as a likely hardware-path issue that needs warranty
+routing or technician assessment. If the flicker happens only with one source,
+support can narrow the next step to cabling or source configuration rather than
+the display assembly.",1,How support reads flicker results; flicker on built-in menu -> hardware/technician routing
+Q004,A recently delivered QN90A flickers on internal menus. We need safe diagnostic steps and a comparison of the still-open store-return route with manufacturer technician service.,2,KB-SAM-TV-001#02,0.1849,KB-SAM-TV-001,Safe Troubleshooting for Intermittent Flicker on Samsung QN90A TVs,Safe checks the customer can perform,"## Safe checks the customer can perform
+
+Ask the customer to note whether the flicker appears on every source or only on
+one device. A useful first check is opening the TV home menu or a built-in app;
+if flicker is visible there as well, the problem is less likely to be caused by
+an external cable or player. For external sources, the customer can reseat the
+HDMI cable, try a known-good cable, and temporarily set the source output to a
+standard refresh rate such as 60 Hz.
+
+The customer may also power the TV off, unplug it for one minute, and reconnect
+it directly to a wall outlet if it was previously attached to a power strip.
+Picture settings that aggressively alter brightness can be turned off for
+testing, including contrast enhancer and motion smoothing. These checks are safe
+because they are reversible and do not require service access.",1,"Safe checks, including the built-in menu test"
+Q004,A recently delivered QN90A flickers on internal menus. We need safe diagnostic steps and a comparison of the still-open store-return route with manufacturer technician service.,3,KB-SAM-TV-001#04,0.1889,KB-SAM-TV-001,Safe Troubleshooting for Intermittent Flicker on Samsung QN90A TVs,Limits and escalation,"## Limits and escalation
+
+Do not ask the customer to remove the back cover, press on the panel, reseat
+internal boards, or repeatedly factory-reset the unit. Escalate to authorized
+service when the symptom persists after the safe checks above, when the screen
+shows flicker before any external source is selected, or when the problem has
+become more frequent over time.",1,Safe limits and when to escalate to authorized service
+Q004,A recently delivered QN90A flickers on internal menus. We need safe diagnostic steps and a comparison of the still-open store-return route with manufacturer technician service.,4,KB-SAM-TV-001#01,0.2027,KB-SAM-TV-001,Safe Troubleshooting for Intermittent Flicker on Samsung QN90A TVs,Symptoms,"## Symptoms
+
+Use this article when a Samsung QN90A owner reports intermittent screen
+flicker, brightness pulsing, or rapid flashing that disrupts viewing. The goal
+is to separate input-related behavior from a likely panel or control-board issue
+without asking the customer to open the television or perform unsafe hardware
+work.",1,Flicker symptoms; separates input problems from a panel issue
+Q004,A recently delivered QN90A flickers on internal menus. We need safe diagnostic steps and a comparison of the still-open store-return route with manufacturer technician service.,5,KB-SAM-NEG-001#03,0.2490,KB-SAM-NEG-001,Troubleshooting Audio Dropouts on Samsung QN90A Televisions,What support provides,"## What support provides
+
+Support interprets the results and decides whether the next step is audio
+configuration review, accessory isolation, or hardware service for the audio
+path. Picture flicker, backlight pulsing, and display artifacts are outside the
+scope of this article.",0,Audio article; says picture flicker is out of scope
+Q004,A recently delivered QN90A flickers on internal menus. We need safe diagnostic steps and a comparison of the still-open store-return route with manufacturer technician service.,6,KB-SAM-NEG-001#04,0.2593,KB-SAM-NEG-001,Troubleshooting Audio Dropouts on Samsung QN90A Televisions,Limits,"## Limits
+
+Do not use audio troubleshooting as evidence that the panel itself is defective.
+If the customer reports flashing images, menu flicker, or brightness pulsing,
+move the case to the display-troubleshooting flow instead of continuing with
+speaker or eARC checks.",0,Audio limits; redirects menu flicker to the display flow
+Q004,A recently delivered QN90A flickers on internal menus. We need safe diagnostic steps and a comparison of the still-open store-return route with manufacturer technician service.,7,KB-SAM-TV-002#02,0.2868,KB-SAM-TV-002,Warranty Routing and Technician Assessment for Samsung Television Display Defects,What the customer provides,"## What the customer provides
+
+The customer should provide the model, serial number, purchase date, seller
+name, and proof of purchase. For intermittent display problems, a short photo or
+video clip is helpful, along with notes about which sources were tested and
+whether the built-in menu also flickers. The customer may also be asked to
+confirm that the screen is free of impact cracks, liquid exposure, and
+unauthorized repair attempts.
+
+The customer is not expected to diagnose the failed part or to decide whether
+the issue is covered.",1,Technician route: what the customer provides
+Q004,A recently delivered QN90A flickers on internal menus. We need safe diagnostic steps and a comparison of the still-open store-return route with manufacturer technician service.,8,KB-SAM-NEG-001#02,0.2917,KB-SAM-NEG-001,Troubleshooting Audio Dropouts on Samsung QN90A Televisions,Safe checks,"## Safe checks
+
+Ask the customer whether the dropout occurs with internal streaming apps, an
+HDMI source, or only when a soundbar is connected. Safe checks include reseating
+the HDMI cable, temporarily disabling eARC for testing, switching the digital
+audio output format, and testing the TV speakers directly. If the issue appears
+only on one external device, support should narrow the investigation to that
+source path.",0,Audio safe checks; not flicker
+Q004,A recently delivered QN90A flickers on internal menus. We need safe diagnostic steps and a comparison of the still-open store-return route with manufacturer technician service.,9,KB-SAM-TV-002#03,0.3058,KB-SAM-TV-002,Warranty Routing and Technician Assessment for Samsung Television Display Defects,What support provides,"## What support provides
+
+Support checks warranty dates, validates symptom evidence, and determines
+whether the case qualifies for technician dispatch or depot review. When the TV
+is within warranty and the symptom remains after approved troubleshooting,
+support opens a service order and offers the first available technician slot in
+the customer's service region. If local dispatch is unavailable, support
+explains the alternate inspection route before scheduling.
+
+Before the visit, support should tell the customer to leave the television
+assembled as currently installed and to keep the remote and proof of purchase
+available. The technician decides whether the issue can be resolved on site or
+whether a follow-up parts visit is needed. Support-owned decisions include the
+service route, appointment window, and parts ordering; the customer only needs
+to confirm access and contact availability.",1,Technician route: warranty check and dispatch
+Q004,A recently delivered QN90A flickers on internal menus. We need safe diagnostic steps and a comparison of the still-open store-return route with manufacturer technician service.,10,KB-SAM-NEG-002#04,0.3131,KB-SAM-NEG-002,Retail Return Windows for Samsung Televisions Purchased Through the Store,Limits,"## Limits
+
+This article does not determine manufacturer warranty coverage, authorize field
+technician visits, or diagnose flicker symptoms. Once the store return window
+has passed, the request moves to the hardware warranty process.",1,"Return-window article: once the window passes, request moves to warranty - partly supports the comparison"
+Q005,Can you enroll a new hardware security key for multifactor authentication and revoke the employee's lost authenticator?,1,KB-DIST-001#03,0.3545,KB-DIST-001,Identity Checks for Account Password Reset Requests,What support provides,"## What support provides
+
+Support validates the identity check, issues the reset, and notes whether the
+customer must update multifactor settings at the next sign-in. If the identity
+record does not match, support routes the request to account recovery review.",0,"Password reset only; mentions MFA settings in passing, nothing on enrolling a security key or revoking an authenticator"
+Q005,Can you enroll a new hardware security key for multifactor authentication and revoke the employee's lost authenticator?,2,KB-SHIP-002#02,0.3576,KB-SHIP-002,Return Eligibility and RMA Process for Networking Hardware,Eligibility,"## Eligibility
+
+Standard hardware returns are accepted within 30 calendar days of delivery when
+the customer requests a return merchandise authorization, or RMA, and the unit
+is returned with its original major components. Open-box returns are allowed,
+but missing modules, damaged ports, or altered serial labels move the case to
+manual review. Compatibility disappointment by itself does not guarantee a full
+refund if the product was sold correctly to the documented specification.",0,"Hardware return eligibility (RMA); matched on ""hardware"", unrelated to authentication"
+Q005,Can you enroll a new hardware security key for multifactor authentication and revoke the employee's lost authenticator?,3,KB-SHIP-002#04,0.3605,KB-SHIP-002,Return Eligibility and RMA Process for Networking Hardware,What support provides,"## What support provides
+
+Support confirms whether the request is inside the return window, issues the RMA
+identifier, and explains where the item must be shipped. If restocking applies,
+support states it before the return is finalized. Once the returned hardware is
+received and passes inspection, support closes the RMA and releases the refund
+or replacement outcome tied to the order type.
+
+When the customer is asking before purchase, support can explain that the RMA
+process exists without predicting the final inspection outcome in advance.
+Returned hardware is checked for missing accessories, altered serial labels, and
+obvious port damage before the case is completed. If inspection finds a mismatch
+with the submitted return reason, support documents that difference for the
+customer rather than silently reducing the outcome.",0,How support issues a hardware return (RMA); unrelated to MFA
+Q005,Can you enroll a new hardware security key for multifactor authentication and revoke the employee's lost authenticator?,4,KB-DIST-001#02,0.3743,KB-DIST-001,Identity Checks for Account Password Reset Requests,What the customer provides,"## What the customer provides
+
+The customer should provide the account identifier, current contact email, and
+one approved identity-check detail such as the last successful billing postcode
+or the name of the authorized signer on file. Support should not ask for full
+payment card numbers or plaintext passwords.",0,Identity details for a password reset; not about enrolling or revoking authenticators
+Q005,Can you enroll a new hardware security key for multifactor authentication and revoke the employee's lost authenticator?,5,KB-DIST-001#01,0.3814,KB-DIST-001,Identity Checks for Account Password Reset Requests,Overview,"## Overview
+
+Use this article when a customer cannot access an account and needs a password
+reset. The focus is verifying identity safely before support changes login
+credentials.",0,Overview of the password-reset article; different task from MFA key enrollment
+Q005,Can you enroll a new hardware security key for multifactor authentication and revoke the employee's lost authenticator?,6,KB-DIST-001#04,0.3823,KB-DIST-001,Identity Checks for Account Password Reset Requests,Limits,"## Limits
+
+This article does not unlock suspended contracts, change billing contacts, or
+override identity controls because the caller says access is urgent. Escalate
+only when the customer no longer controls the registered email and standard
+identity verification cannot be completed safely.",0,Password-reset limits and escalation; no MFA enrollment or revocation steps
+Q005,Can you enroll a new hardware security key for multifactor authentication and revoke the employee's lost authenticator?,7,KB-SHIP-002#01,0.3863,KB-SHIP-002,Return Eligibility and RMA Process for Networking Hardware,Overview,"## Overview
+
+This article covers return requests for networking hardware after delivery. It
+is appropriate when a customer asks what happens if a router or similar product
+does not meet expectations and wants to understand the support process before
+ordering.",0,Overview of networking hardware returns; unrelated to authentication
+Q005,Can you enroll a new hardware security key for multifactor authentication and revoke the employee's lost authenticator?,8,KB-SHIP-002#03,0.3864,KB-SHIP-002,Return Eligibility and RMA Process for Networking Hardware,What the customer provides,"## What the customer provides
+
+The customer should provide the order number, delivery date, model, serial
+number if available, and the reason for return. If the package arrived damaged,
+photos of the carton and contents are helpful. The customer is not expected to
+create the RMA code on their own.",0,What the customer provides for a hardware return; unrelated to MFA
+Q005,Can you enroll a new hardware security key for multifactor authentication and revoke the employee's lost authenticator?,9,KB-SHIP-NEG-001#03,0.3893,KB-SHIP-NEG-001,Shipping Address Change Requests for Hardware Orders,What support provides,"## What support provides
+
+Support can update the address only before carrier handoff. Once the package has
+been manifested and transferred to the carrier, the original address must remain
+in place unless the carrier separately approves a reroute request. Support
+should tell the customer whether the order is still editable and whether the
+change will delay dispatch.",0,Shipping address changes; unrelated
+Q005,Can you enroll a new hardware security key for multifactor authentication and revoke the employee's lost authenticator?,10,KB-SHIP-NEG-001#02,0.3906,KB-SHIP-NEG-001,Shipping Address Change Requests for Hardware Orders,What the customer provides,"## What the customer provides
+
+Support needs the order number, the requested new address, and confirmation of
+whether the order has already shipped. If the destination change affects tax or
+export screening, the customer may also be asked to reconfirm billing details.",0,What's needed for a shipping address change; unrelated

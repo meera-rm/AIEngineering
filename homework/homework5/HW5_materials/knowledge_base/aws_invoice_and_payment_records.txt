@@ -1,0 +1,37 @@
+---
+article_id: KB-AWS-NEG-001
+title: Getting AWS Management Service Invoice Copies and Payment Records
+product: AWS Management Service
+topic: invoice-payment-records
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when a customer needs a copy of a statement, invoice, payment
+receipt, or remittance confirmation for AWS Management Service charges that have
+already been processed. This article is about billing documents and payment
+records only. It does not review whether charges were correct, predict future
+usage, or assess discount eligibility.
+
+## What the customer provides
+
+The customer should provide the account number, the statement month or quarter,
+and the document they need reissued. If they are matching a payment, support
+also needs the payment date or the reference number from the remittance. The
+customer is not expected to explain technical usage details for this request.
+
+## What support provides
+
+Support can resend archived statements, issue payment confirmations, and note
+whether a charge has been marked paid, pending settlement, or reversed. If the
+customer cannot locate an invoice attachment, support can confirm whether the
+document was sent by portal message or by email from the finance mailbox.
+
+## Limits
+
+This article does not answer disputes about why a charge appeared, whether an
+adjustment is available, or whether a pricing discount should have applied. Use
+the billing-review process for those questions.

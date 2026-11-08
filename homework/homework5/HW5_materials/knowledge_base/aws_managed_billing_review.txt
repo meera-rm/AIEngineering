@@ -1,0 +1,57 @@
+---
+article_id: KB-AWS-BILL-001
+title: Requesting an AWS Management Service Billing Review
+product: AWS Management Service
+topic: billing-review
+audience: support
+version: 1.0
+corpus_version: hw5_kb_v1
+---
+
+## Overview
+
+Use this article when a customer wants a formal review of AWS Management Service
+charges because the billed total does not line up with prior projections,
+expected usage, or earlier correspondence. A billing review covers managed
+service line items, mapped usage metrics, and written explanations for charges
+that appear unexpected. It does not decide payment method issues, provide raw
+cloud-provider invoices, or approve discounts by itself.
+
+## What the customer provides
+
+To open the review, the customer should provide the managed-service account
+number, the billing period in question, the statement or invoice date, and at
+least two examples of the charges they want examined. Helpful evidence includes
+their internal projection, any earlier rate guidance they received, and the
+name of a backup contact who can answer follow-up questions. If the customer
+has already identified specific dates with unusual usage, those dates should be
+included so support can focus the comparison.
+
+The customer is not expected to calculate the root cause or supply a corrected
+bill. Missing examples may slow the review, but they do not prevent support
+from acknowledging the request and collecting the rest of the evidence.
+
+## What support provides
+
+Support opens a billing review case, confirms the review period, and prepares a
+charge-by-charge breakdown from the managed-service records for that period.
+The standard output is a written summary that maps each disputed line item to
+the recorded service activity, plus a note for any entry that needs deeper
+finance review. When the question concerns projected versus actual usage,
+support compares the agreed estimate category with the measured usage pattern
+rather than the customer's internal budget alone.
+
+For routine reviews, the first written breakdown is normally issued within
+three business days. If any charge must be checked against archived service
+logs, support tells the customer which entries remain under investigation and
+when the next update will be sent.
+
+## Limits and escalation
+
+A billing review explains charges and identifies whether a separate adjustment
+decision is needed. It does not itself promise credits, retroactive plan
+changes, or courtesy waivers. Escalate to finance operations when a managed
+service line cannot be reconciled to internal usage records, when the disputed
+period spans more than one quarterly statement, or when the customer reports a
+regulatory deadline that requires a documented answer sooner than the standard
+review window.
