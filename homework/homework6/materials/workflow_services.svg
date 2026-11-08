@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="340" viewBox="0 0 920 340">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#59636e"/>
+    </marker>
+    <style>
+      .workflow { fill: #f5f2ff; stroke: #6c5aa7; stroke-width: 1.5; }
+      .router { fill: #eef5ff; stroke: #4775a8; stroke-width: 1.5; }
+      .retrieval { fill: #fff7e8; stroke: #a56a17; stroke-width: 1.5; }
+      .llm { fill: #fceff4; stroke: #a34f70; stroke-width: 1.5; }
+      .result { fill: #eef8f0; stroke: #498057; stroke-width: 1.5; }
+      .line { fill: none; stroke: #59636e; stroke-width: 1.5; marker-end: url(#arrow); }
+      .dash { fill: none; stroke: #a56a17; stroke-width: 1.5; stroke-dasharray: 5 4; marker-end: url(#arrow); }
+      .evidence { fill: none; stroke: #498057; stroke-width: 1.5; marker-end: url(#arrow); }
+      text { fill: #202428; font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+      .owner { font-size: 10px; font-weight: bold; text-transform: uppercase; }
+      .small { font-size: 10px; }
+    </style>
+  </defs>
+
+  <rect class="workflow" x="15" y="125" width="95" height="60" rx="7"/>
+  <text class="owner" x="62" y="143">Workflow</text>
+  <text x="62" y="162">Accept ticket</text>
+  <text class="small" x="62" y="177">validate input</text>
+
+  <rect class="router" x="175" y="35" width="145" height="70" rx="7"/>
+  <text class="owner" x="247" y="54">Routing service</text>
+  <text x="247" y="75">Preprocess + classify</text>
+  <text class="small" x="247" y="91">recommend + class scores</text>
+
+  <rect class="retrieval" x="175" y="205" width="145" height="70" rx="7"/>
+  <text class="owner" x="247" y="224">Retrieval service</text>
+  <text x="247" y="245">Embed + search</text>
+  <text class="small" x="247" y="261">ordered evidence</text>
+
+  <rect class="retrieval" x="190" y="295" width="115" height="30" rx="7"/>
+  <text class="small" x="247" y="314">LanceDB + KB</text>
+
+  <rect class="workflow" x="385" y="205" width="145" height="70" rx="7"/>
+  <text class="owner" x="457" y="224">Workflow</text>
+  <text x="457" y="245">Build prompt</text>
+  <text class="small" x="457" y="261">ticket + evidence</text>
+
+  <rect class="llm" x="595" y="205" width="130" height="70" rx="7"/>
+  <text class="owner" x="660" y="224">LLM service</text>
+  <text x="660" y="245">Ollama</text>
+  <text class="small" x="660" y="261">structured summary</text>
+
+  <rect class="result" x="785" y="88" width="125" height="135" rx="7"/>
+  <text class="owner" x="847" y="108">Workflow</text>
+  <text x="847" y="130">Validate + combine</text>
+  <text class="small" x="847" y="151">routing result</text>
+  <text class="small" x="847" y="167">exact ticket_body</text>
+  <text class="small" x="847" y="183">ticket summary</text>
+  <text class="small" x="847" y="199">exact evidence</text>
+  <text class="small" x="847" y="215">for human review</text>
+
+  <path class="line" d="M110 145 H145 V70 H175"/>
+  <path class="line" d="M110 165 H145 V240 H175"/>
+  <path class="dash" d="M247 295 V275"/>
+  <path class="line" d="M320 240 H385"/>
+  <path class="line" d="M530 240 H595"/>
+  <path class="line" d="M320 70 H755 V125 H785"/>
+  <path class="line" d="M725 240 H755 V185 H785"/>
+  <path class="evidence" d="M320 260 H350 V285 H765 V205 H785"/>
+  <text class="small" x="540" y="302">preserve exact evidence</text>
+</svg>

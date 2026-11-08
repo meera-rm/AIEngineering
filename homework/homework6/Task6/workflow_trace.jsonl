@@ -1,0 +1,30 @@
+{"event":"workflow_started","timestamp":"2026-11-03T06:05:19.331Z","trace_id":"fa97f4d6-7a97-4571-b94c-599e44437f9d","workflow_record_id":"d93fa0d7-4861-4008-b375-561278f0a73a"}
+{"event":"service_started","service":"routing","timestamp":"2026-11-03T06:05:19.331Z","trace_id":"fa97f4d6-7a97-4571-b94c-599e44437f9d"}
+{"event":"service_started","service":"retrieval","timestamp":"2026-11-03T06:05:19.331Z","trace_id":"fa97f4d6-7a97-4571-b94c-599e44437f9d"}
+{"duration_ms":5.6,"event":"service_completed","service":"routing","timestamp":"2026-11-03T06:05:19.337Z","trace_id":"fa97f4d6-7a97-4571-b94c-599e44437f9d"}
+{"event":"routing_result","recommended_department":"Billing and Payments","timestamp":"2026-11-03T06:05:19.337Z","trace_id":"fa97f4d6-7a97-4571-b94c-599e44437f9d"}
+{"duration_ms":62.4,"event":"service_completed","service":"retrieval","timestamp":"2026-11-03T06:05:19.395Z","trace_id":"fa97f4d6-7a97-4571-b94c-599e44437f9d"}
+{"chunk_ids":["KB-AWS-NEG-001#04","KB-AWS-NEG-001#03","KB-AWS-BILL-001#02","KB-AWS-NEG-001#01","KB-AWS-NEG-001#02"],"event":"retrieval_result","timestamp":"2026-11-03T06:05:19.395Z","trace_id":"fa97f4d6-7a97-4571-b94c-599e44437f9d"}
+{"event":"service_started","service":"llm","timestamp":"2026-11-03T06:05:19.395Z","trace_id":"fa97f4d6-7a97-4571-b94c-599e44437f9d"}
+{"duration_ms":1428.2,"event":"service_completed","service":"llm","timestamp":"2026-11-03T06:05:20.823Z","trace_id":"fa97f4d6-7a97-4571-b94c-599e44437f9d"}
+{"duration_ms":1493.1,"event":"workflow_completed","terminal_status":"summary_ready_for_review","timestamp":"2026-11-03T06:05:20.824Z","trace_id":"fa97f4d6-7a97-4571-b94c-599e44437f9d","workflow_record_id":"d93fa0d7-4861-4008-b375-561278f0a73a"}
+{"event":"workflow_started","timestamp":"2026-11-03T06:06:38.401Z","trace_id":"17faecde-8373-46b5-a40d-45b6007da322","workflow_record_id":"2dc0b395-759c-4822-8095-05136174bbe8"}
+{"event":"service_started","service":"routing","timestamp":"2026-11-03T06:06:38.401Z","trace_id":"17faecde-8373-46b5-a40d-45b6007da322"}
+{"event":"service_started","service":"retrieval","timestamp":"2026-11-03T06:06:38.401Z","trace_id":"17faecde-8373-46b5-a40d-45b6007da322"}
+{"duration_ms":5.1,"event":"service_completed","service":"routing","timestamp":"2026-11-03T06:06:38.407Z","trace_id":"17faecde-8373-46b5-a40d-45b6007da322"}
+{"event":"routing_result","recommended_department":"Billing and Payments","timestamp":"2026-11-03T06:06:38.407Z","trace_id":"17faecde-8373-46b5-a40d-45b6007da322"}
+{"duration_ms":10.0,"event":"service_completed","service":"retrieval","timestamp":"2026-11-03T06:06:38.412Z","trace_id":"17faecde-8373-46b5-a40d-45b6007da322"}
+{"chunk_ids":["KB-AWS-NEG-001#04","KB-AWS-NEG-001#03","KB-AWS-BILL-001#02","KB-AWS-NEG-001#01","KB-AWS-NEG-001#02"],"event":"retrieval_result","timestamp":"2026-11-03T06:06:38.412Z","trace_id":"17faecde-8373-46b5-a40d-45b6007da322"}
+{"event":"service_started","service":"llm","timestamp":"2026-11-03T06:06:38.412Z","trace_id":"17faecde-8373-46b5-a40d-45b6007da322"}
+{"duration_ms":504.5,"event":"service_completed","service":"llm","timestamp":"2026-11-03T06:06:38.917Z","trace_id":"17faecde-8373-46b5-a40d-45b6007da322"}
+{"duration_ms":515.8,"event":"workflow_completed","terminal_status":"summary_ready_for_review","timestamp":"2026-11-03T06:06:38.917Z","trace_id":"17faecde-8373-46b5-a40d-45b6007da322","workflow_record_id":"2dc0b395-759c-4822-8095-05136174bbe8"}
+{"event":"workflow_started","timestamp":"2026-11-03T14:25:21.461Z","trace_id":"80bfd585-0369-456d-8fc4-8ce5f3b33759","workflow_record_id":"985319a3-515f-44b2-841e-cc8828a6cad4"}
+{"event":"service_started","service":"routing","timestamp":"2026-11-03T14:25:21.461Z","trace_id":"80bfd585-0369-456d-8fc4-8ce5f3b33759"}
+{"event":"service_started","service":"retrieval","timestamp":"2026-11-03T14:25:21.463Z","trace_id":"80bfd585-0369-456d-8fc4-8ce5f3b33759"}
+{"duration_ms":6.1,"event":"service_completed","service":"routing","timestamp":"2026-11-03T14:25:21.467Z","trace_id":"80bfd585-0369-456d-8fc4-8ce5f3b33759"}
+{"event":"routing_result","recommended_department":"Billing and Payments","timestamp":"2026-11-03T14:25:21.468Z","trace_id":"80bfd585-0369-456d-8fc4-8ce5f3b33759"}
+{"duration_ms":78.9,"event":"service_completed","service":"retrieval","timestamp":"2026-11-03T14:25:21.542Z","trace_id":"80bfd585-0369-456d-8fc4-8ce5f3b33759"}
+{"chunk_ids":["KB-AWS-NEG-001#04","KB-AWS-NEG-001#03","KB-AWS-BILL-001#02","KB-AWS-NEG-001#01","KB-AWS-NEG-001#02"],"event":"retrieval_result","timestamp":"2026-11-03T14:25:21.542Z","trace_id":"80bfd585-0369-456d-8fc4-8ce5f3b33759"}
+{"event":"service_started","service":"llm","timestamp":"2026-11-03T14:25:21.542Z","trace_id":"80bfd585-0369-456d-8fc4-8ce5f3b33759"}
+{"duration_ms":1430.2,"event":"service_completed","service":"llm","timestamp":"2026-11-03T14:25:22.972Z","trace_id":"80bfd585-0369-456d-8fc4-8ce5f3b33759"}
+{"duration_ms":1511.9,"event":"workflow_completed","terminal_status":"summary_ready_for_review","timestamp":"2026-11-03T14:25:22.973Z","trace_id":"80bfd585-0369-456d-8fc4-8ce5f3b33759","workflow_record_id":"985319a3-515f-44b2-841e-cc8828a6cad4"}
