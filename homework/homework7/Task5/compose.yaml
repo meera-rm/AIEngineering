@@ -1,0 +1,76 @@
+name: homework7
+
+services:
+  router:
+    build: ../Task1/router
+    image: hw7-router:1
+    ports:
+      - "8001:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=5)"]
+      interval: 15s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    restart: unless-stopped
+
+  retrieval:
+    build: ../Task2
+    image: hw7-retrieval:1
+    ports:
+      - "8002:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=5)"]
+      interval: 15s
+      timeout: 10s
+      retries: 3
+      start_period: 90s   # loads the vector store and embedding model at startup
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:0.34.1
+    ports:
+      - "8003:11434"
+    volumes:
+      - homework7_ollama:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "show", "qwen2.5:1.5b-instruct-q4_K_M"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    restart: unless-stopped
+
+  workflow:
+    build: ../Task4
+    image: hw7-workflow:1
+    ports:
+      - "8000:8000"
+    environment:
+      ROUTING_URL: http://router:8000
+      RETRIEVAL_URL: http://retrieval:8000
+      OLLAMA_URL: http://ollama:11434
+    volumes:
+      - homework7_workflow_logs:/app/logs
+    depends_on:
+      router:
+        condition: service_healthy
+      retrieval:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=5)"]
+      interval: 15s
+      timeout: 20s       # the workflow health check calls three services
+      retries: 3
+      start_period: 30s
+    restart: unless-stopped
+
+# Both volumes were created earlier with `docker volume create`, so Compose
+# must reuse them. A Compose-managed volume would start empty and lose the model.
+volumes:
+  homework7_ollama:
+    external: true
+  homework7_workflow_logs:
+    external: true

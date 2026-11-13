@@ -1,0 +1,64 @@
+services:
+  api:
+    build: ./api
+    ports:
+      - "9000:8000"
+    environment:
+      MODEL_URL: http://model:8000
+      DATABASE_HOST: vectors
+      DATABASE_NAME: search
+      DATABASE_USER: search
+      DATABASE_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+    depends_on:
+      model:
+        condition: service_healthy
+      vectors:
+        condition: service_healthy
+    mem_limit: 1g
+    cpus: 1
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=15)"]
+      interval: 15s
+      timeout: 20s
+      retries: 3
+      start_period: 15s
+
+  model:
+    build: ./model
+    gpus: all
+    environment:
+      HF_HOME: /models
+    volumes:
+      - model-cache:/models
+    mem_limit: 4g
+    cpus: 2
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=5)"]
+      interval: 10s
+      timeout: 10s
+      retries: 30
+      start_period: 120s
+
+  vectors:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_DB: search
+      POSTGRES_USER: search
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+    volumes:
+      - vector-data:/var/lib/postgresql/data
+    mem_limit: 1g
+    cpus: 1
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "search", "-d", "search"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+volumes:
+  model-cache:
+  vector-data:
